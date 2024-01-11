@@ -14,5 +14,11 @@
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@polkadot/api": "^10.11.2",
+    "@polkadot/util": "^12.6.2",
+    "@polkadot/util-crypto": "^12.6.2",
+    "@subwallet/chain-list": "^0.2.36"
   }
 }
