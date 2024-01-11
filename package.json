@@ -1,0 +1,18 @@
+{
+  "name": "Static-Data-Caching",
+  "version": "1.0.0",
+  "description": "Caching not required realtime data",
+  "main": "index.js",
+  "repository": "https://github.com/Koniverse/Static-Data-Caching.git",
+  "author": "AnhMTV <maithachvietanh@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
