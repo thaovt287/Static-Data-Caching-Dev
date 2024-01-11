@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "fetch-data": "ts-node src/index.ts",
     "build": "tsc"
   },
   "devDependencies": {
