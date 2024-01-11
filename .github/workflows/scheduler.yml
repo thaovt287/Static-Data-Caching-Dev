@@ -22,7 +22,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GH_AUTOMATION_TOKEN }}
 
       - name: Update data
         run: |
