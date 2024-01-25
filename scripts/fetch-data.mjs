@@ -1,11 +1,10 @@
 import {VirtualBrowser} from "./lib/VirtualBrowser.mjs";
 import {writeJSONFile} from "./lib/utils.mjs";
-import fetch from "cross-fetch";
+import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
 const runBrowser = async () => {
   const virtualBrowser = VirtualBrowser.getInstance();
-  const request = await fetch('https://sw-static-cache.pages.dev/earning/yield-pools.json');
-  const oldData = await request.json();
+
   const page = await virtualBrowser.openPage('https://swwrc.pages.dev')
   const result = await page.evaluate(async () => {
     try {
