@@ -12,7 +12,10 @@
     "fetch-data": "node ./scripts/fetch-data.mjs"
   },
   "dependencies": {
+    "cross-fetch": "^4.0.0",
+    "fetch-data": "^0.0.2",
+    "npm": "^10.4.0",
     "puppeteer": "*",
-    "cross-fetch": "^4.0.0"
+    "run": "^1.5.0"
   }
 }
