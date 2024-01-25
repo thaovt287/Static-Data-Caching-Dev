@@ -12,7 +12,7 @@ const runBrowser = async () => {
       await koniState.eventService.waitChainReady;
       await koniState.chainService.enableChains(['polkadot', 'kusama', 'aleph', 'polkadex', 'ternoa', 'ternoa_alphanet', 'alephTest', 'polkadexTest', 'westend', 'kate', 'edgeware', 'creditcoin', 'vara_network', 'goldberg_testnet', 'moonbeam', 'moonriver', 'moonbase', 'turing', 'turingStaging', 'bifrost', 'bifrost_testnet', 'calamari_test', 'calamari', 'manta_network', 'astar', 'shiden', 'shibuya', 'amplitude', 'amplitude_test', 'kilt', 'kilt_peregrine', 'pendulum', 'kilt', 'kilt_peregrine', 'polkadot', 'kusama', 'westend', 'alephTest', 'aleph', 'kate', 'vara_network', 'goldberg_testnet', 'bifrost', 'bifrost_testnet', 'aleph', 'alephTest', 'ternoa', 'ternoa_alphanet', 'bifrost_dot', 'acala', 'parallel', 'moonbeam', 'interlay']);
       await new Promise((resolve) => {
-        setTimeout(resolve, 30000);
+        setTimeout(resolve, 60000);
       });
 
       return await koniState.earningService.getYieldPoolInfo();
@@ -22,7 +22,10 @@ const runBrowser = async () => {
   })
 
   const poolInfo = result.reduce((acc, pool) => {
-    acc[pool.slug] = pool;
+    if (pool.statistic) {
+      acc[pool.slug] = pool;
+    }
+
     return acc;
   }, {});
 
