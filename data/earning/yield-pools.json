@@ -1,6 +1,6 @@
 {
-  "lastUpdated": 1706167596981,
-  "lastUpdatedTimestamp": "2024-01-25T07:26:36.981Z",
+  "lastUpdated": 1706168246367,
+  "lastUpdatedTimestamp": "2024-01-25T07:37:26.367Z",
   "data": {
     "DOT___native_staking___polkadot": {
       "group": "DOT-Polkadot",
@@ -39,7 +39,7 @@
           "defaultUnstake": "0",
           "fastUnstake": "0"
         },
-        "farmerCount": 41212,
+        "farmerCount": 41211,
         "era": 1332,
         "eraTime": 24,
         "tvl": "7332938344661840489",
@@ -131,7 +131,7 @@
           "defaultUnstake": "0",
           "fastUnstake": "0"
         },
-        "farmerCount": 13053,
+        "farmerCount": 13052,
         "era": 6177,
         "eraTime": 6,
         "tvl": "7680784750996860176",
@@ -262,6 +262,25 @@
           "claimReward": false
         },
         "description": "Earn rewards by staking xcDOT for stDOT"
+      },
+      "statistic": {
+        "assetEarning": [
+          {
+            "slug": "moonbeam-LOCAL-xcDOT",
+            "apr": 18.4,
+            "exchangeRate": 1.0339360043
+          }
+        ],
+        "unstakingPeriod": 672,
+        "maxCandidatePerFarmer": 1,
+        "maxWithdrawalRequestPerFarmer": 1,
+        "earningThreshold": {
+          "join": "0",
+          "defaultUnstake": "0",
+          "fastUnstake": "0"
+        },
+        "totalApr": 18.4,
+        "tvl": "3262487783081002"
       }
     },
     "AZERO___native_staking___aleph": {
@@ -383,7 +402,7 @@
         "assetEarning": [
           {
             "slug": "astar-NATIVE-ASTR",
-            "apy": 10.956823432327845
+            "apy": 10.95660828827425
           }
         ],
         "maxCandidatePerFarmer": 100,
@@ -396,7 +415,7 @@
         "farmerCount": 0,
         "era": 635,
         "eraTime": 24,
-        "totalApy": 10.956823432327845,
+        "totalApy": 10.95660828827425,
         "unstakingPeriod": 240
       }
     },
@@ -573,7 +592,7 @@
         "assetEarning": [
           {
             "slug": "shiden-NATIVE-SDN",
-            "apy": 16.437896114904294
+            "apy": 16.431517385391526
           }
         ],
         "maxCandidatePerFarmer": 100,
@@ -586,7 +605,7 @@
         "farmerCount": 0,
         "era": 735,
         "eraTime": 24,
-        "totalApy": 16.437896114904294,
+        "totalApy": 16.431517385391526,
         "unstakingPeriod": 120
       }
     },
@@ -977,7 +996,7 @@
           "fastUnstake": "0"
         },
         "totalApy": 17.93,
-        "tvl": "57406587699373500"
+        "tvl": "57406601199323816"
       }
     },
     "BNC___native_staking___bifrost_testnet": {
@@ -1171,7 +1190,7 @@
         "assetEarning": [
           {
             "slug": "parallel-LOCAL-DOT",
-            "apy": -97.84870040681847,
+            "apy": -97.84864521935432,
             "exchangeRate": 1.3222228969779872
           }
         ],
@@ -1183,7 +1202,7 @@
           "defaultUnstake": "5000000000",
           "fastUnstake": "0"
         },
-        "totalApy": -97.84870040681847,
+        "totalApy": -97.84864521935432,
         "tvl": "9421131806493044"
       }
     },
@@ -1460,7 +1479,7 @@
         "farmerCount": 261,
         "era": 3798,
         "eraTime": 2,
-        "tvl": "35161095960395057827",
+        "tvl": "35161595960395057827",
         "unstakingPeriod": 168
       }
     },
@@ -1816,7 +1835,7 @@
           "defaultUnstake": "0",
           "fastUnstake": "0"
         },
-        "farmerCount": 4983,
+        "farmerCount": 4984,
         "era": 79,
         "eraTime": 24,
         "tvl": "839577523705076457159672",

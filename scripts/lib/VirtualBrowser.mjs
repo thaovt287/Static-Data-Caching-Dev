@@ -11,7 +11,10 @@ export class VirtualBrowser {
     if (!this.browser) {
       this.browser = await puppeteer.launch({
         headless: false,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        env: {
+          DISPLAY : ":10.0"
+        }
       });
     }
 
