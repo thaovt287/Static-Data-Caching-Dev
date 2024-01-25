@@ -6,10 +6,10 @@
   "repository": "https://github.com/Koniverse/Static-Data-Caching.git",
   "author": "AnhMTV <maithachvietanh@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "private": false,
   "scripts": {
-    "fetch-data": "ts-node src/index.ts",
-    "build": "tsc"
+    "fetch-data": "node ./scripts/fetch-data.mjs"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
@@ -20,6 +20,7 @@
     "@polkadot/util": "^12.6.2",
     "@polkadot/util-crypto": "^12.6.2",
     "@subwallet/chain-list": "^0.2.36",
+    "puppeteer": "^21.9.0",
     "cross-fetch": "^4.0.0"
   }
 }

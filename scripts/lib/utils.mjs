@@ -1,14 +1,9 @@
 import fs from "fs";
-import {DATA_DIR} from "../contants";
+import {DATA_DIR} from "./constants.mjs";
 
-export interface PromiseObject<T> {
-  promise: Promise<T>;
-  resolve: (value: T | PromiseLike<T>) => void;
-  reject: (reason?: any) => void;
-}
 
-export function createPromise<T>(): PromiseObject<T> {
-  const promiseObject = {} as PromiseObject<T>;
+export function createPromise() {
+  const promiseObject = {};
   promiseObject.promise = new Promise<T>((resolve, reject) => {
     promiseObject.resolve = resolve;
     promiseObject.reject = reject;
@@ -17,7 +12,7 @@ export function createPromise<T>(): PromiseObject<T> {
   return promiseObject;
 }
 
-export async function writeJSONFile(fileName: string, data: any) {
+export async function writeJSONFile(fileName, data) {
     const filePath = `${DATA_DIR}/${fileName}`;
     fs.writeFile(filePath, JSON.stringify(data, null, 2), function (err) {
         if (err) {

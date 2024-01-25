@@ -27,6 +27,7 @@ jobs:
       - name: Update data
         run: |
           yarn install
+          npx puppeteer browsers install chrome
           yarn fetch-data
 
       - name: Deploy to Cloudflare Pages
