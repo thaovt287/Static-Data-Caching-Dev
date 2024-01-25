@@ -36,7 +36,9 @@ jobs:
         env:
           CI: "true"
         with:
-          args: npm run fetch-data
+          args: |
+            yarn install
+            yarn fetch-data
 
       - name: Deploy to Cloudflare Pages
         id: cloudflare_deployment
