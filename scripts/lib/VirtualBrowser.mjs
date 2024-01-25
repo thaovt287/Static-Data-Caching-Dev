@@ -1,4 +1,4 @@
-import puppeteer, {Browser, Page} from "puppeteer";
+import puppeteer from "puppeteer";
 
 export class VirtualBrowser {
   browser;
@@ -10,11 +10,9 @@ export class VirtualBrowser {
   async getBrowser () {
     if (!this.browser) {
       this.browser = await puppeteer.launch({
+        args: ['--no-sandbox'],
+        executablePath: process.env.PUPPETEER_EXEC_PATH, // set by docker container
         headless: false,
-        args: ['--no-sandbox', '--disable-setuid-sandbox'],
-        env: {
-          DISPLAY : ":10.0"
-        }
       });
     }
 

@@ -24,26 +24,22 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
 
-      - name: Install dependencies
-        run: |
-          apt-get update
-          apt-get install -yq libgconf-2-4
-          apt-get install -y wget xvfb --no-install-recommends 
-          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - 
-          sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' 
-          apt-get update 
-          apt-get install -y google-chrome-stable --no-install-recommends 
-          rm -rf /var/lib/apt/lists/*
-
-      - name: Update data
+      - name: Install Dependencies
+        uses: actions/setup-node@v2
         env:
-          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
-          DISPLAY: ':99.0'
-          PUPPETEER_EXEC_PATH: 'google-chrome-stable'
-        run: |
-          Xvfb -ac :99 -screen 0 1280x1024x16 > /dev/null 2>&1 &
-          yarn install
-          yarn fetch-data
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "true"
+        with:
+          args: install
+
+      - name: Fetch Data
+        uses: mujo-code/puppeteer-headful@18.9.0
+        env:
+          CI: "true"
+        with:
+          args: |
+            npm install -g yarn
+            yarn install
+            yarn fetch-data
 
       - name: Deploy to Cloudflare Pages
         id: cloudflare_deployment
