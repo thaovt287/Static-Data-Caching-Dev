@@ -11,19 +11,8 @@
   "scripts": {
     "fetch-data": "node ./scripts/fetch-data.mjs"
   },
-  "devDependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
-  },
   "dependencies": {
-    "@polkadot/api": "^10.11.2",
-    "@polkadot/util": "^12.6.2",
-    "@polkadot/util-crypto": "^12.6.2",
-    "@subwallet/chain-list": "^0.2.36",
-    "cross-fetch": "^4.0.0",
-    "fetch-data": "^0.0.2",
-    "npm": "^10.4.0",
-    "puppeteer": "^21.9.0",
-    "run": "^1.5.0"
+    "puppeteer": "*",
+    "cross-fetch": "^4.0.0"
   }
 }
