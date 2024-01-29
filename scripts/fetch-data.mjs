@@ -22,7 +22,9 @@ const runBrowser = async () => {
   })
 
   const poolInfo = result.reduce((acc, pool) => {
+    const now = Date.now();
     if (pool.statistic) {
+      pool.lastUpdated = now;
       acc[pool.slug] = pool;
     }
 
@@ -47,7 +49,7 @@ const main = async () => {
     console.log('Timeout');
     // Close process
     process.exit(0);
-  }, 90000);
+  }, 120000);
 
   // Run browser
   await runBrowser();
