@@ -22,9 +22,7 @@ const runBrowser = async () => {
   })
 
   const poolInfo = result.reduce((acc, pool) => {
-    const now = Date.now();
     if (pool.statistic) {
-      pool.lastUpdated = now;
       acc[pool.slug] = pool;
     }
 
