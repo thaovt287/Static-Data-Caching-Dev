@@ -39,6 +39,30 @@ const runBrowser = async () => {
     }
   });
 
+  const data = await page.evaluate(async () => {
+    const koniState = window.SubWalletState;
+    const poolInfos = await koniState.earningService.getYieldPoolInfo();
+
+    const promiseList = poolInfos.map((pool) => {
+      const timeoutPromise = new Promise((resolve) => {
+        setTimeout(() => {
+            resolve([]);
+        }, 60000);
+      });
+
+      const promise = koniState.earningService.getPoolTargets(pool.slug);
+      return Promise.race([promise, timeoutPromise]).then((rs) => [pool.slug, rs]);
+    });
+
+    return await Promise.all(promiseList);
+  });
+
+  data.forEach(([slug, targets]) => {
+    if (targets.length > 0) {
+        writeJSONFile(`earning/targets/${slug}.json`, targets);
+    }
+  });
+
   await virtualBrowser.close();
 };
 
