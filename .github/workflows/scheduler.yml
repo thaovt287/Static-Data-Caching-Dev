@@ -25,6 +25,9 @@ jobs:
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
 
       - name: Update data
+        env:
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
         run: |
           yarn install
           yarn fetch-data
