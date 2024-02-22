@@ -15,7 +15,7 @@ on:
 jobs:
   master:
     if: "! startsWith(github.event.head_commit.message, '[CI Skip]')"
-    runs-on: ubuntu-latest
+    runs-on: sw-runner
     name: Earning Scheduler
     steps:
       - uses: actions/checkout@v4
