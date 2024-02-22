@@ -26,7 +26,6 @@ jobs:
 
       - name: Update data
         run: |
-          npx puppeteer browsers install chrome
           yarn install
           yarn fetch-data
 
