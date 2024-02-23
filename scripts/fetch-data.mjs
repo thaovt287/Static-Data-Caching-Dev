@@ -50,7 +50,16 @@ const runBrowser = async () => {
         }, 60000);
       });
 
-      const promise = koniState.earningService.getPoolTargets(pool.slug);
+      const promise = (async () => {
+        try {
+          return await koniState.earningService.getPoolTargets(pool.slug)
+        } catch (e) {
+          console.error(e);
+
+          return [];
+        }
+      });
+
       return Promise.race([promise, timeoutPromise]).then((rs) => [pool.slug, rs]);
     });
 
@@ -71,7 +80,7 @@ const main = async () => {
     console.log('Timeout');
     // Close process
     process.exit(0);
-  }, 120000);
+  }, 180000);
 
   // Run browser
   await runBrowser();
