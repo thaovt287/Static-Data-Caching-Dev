@@ -58,7 +58,7 @@ const runBrowser = async () => {
 
           return [];
         }
-      });
+      })();
 
       return Promise.race([promise, timeoutPromise]).then((rs) => [pool.slug, rs]);
     });
