@@ -14,7 +14,7 @@ const runBrowser = async () => {
       koniState.earningService.disableOnlineCacheOnly && koniState.earningService.disableOnlineCacheOnly();
 
       await koniState.eventService.waitChainReady;
-      await koniState.chainService.enableChains(['polkadot', 'kusama', 'aleph', 'polkadex', 'ternoa', 'alephTest', 'polkadexTest', 'westend', 'kate', 'edgeware', 'creditcoin', 'vara_network', 'goldberg_testnet', 'moonbeam', 'moonriver', 'moonbase', 'turing', 'turingStaging', 'bifrost', 'bifrost_testnet', 'calamari_test', 'calamari', 'manta_network', 'astar', 'shiden', 'shibuya', 'amplitude', 'amplitude_test', 'kilt', 'kilt_peregrine', 'pendulum', 'kilt', 'kilt_peregrine', 'polkadot', 'kusama', 'westend', 'alephTest', 'aleph', 'kate', 'vara_network', 'goldberg_testnet', 'bifrost', 'bifrost_testnet', 'aleph', 'alephTest', 'ternoa', 'ternoa_alphanet', 'bifrost_dot', 'acala', 'parallel', 'moonbeam', 'interlay', 'krest_network']);
+      await koniState.chainService.enableChains(['polkadot', 'kusama', 'aleph', 'polkadex', 'ternoa', 'alephTest', 'polkadexTest', 'westend', 'kate', 'edgeware', 'creditcoin', 'vara_network', 'goldberg_testnet', 'moonbeam', 'moonriver', 'moonbase', 'turing', 'turingStaging', 'bifrost', 'bifrost_testnet', 'calamari_test', 'calamari', 'manta_network', 'astar', 'shiden', 'shibuya', 'amplitude', 'amplitude_test', 'kilt', 'kilt_peregrine', 'pendulum', 'bifrost_dot', 'acala', 'parallel', 'interlay', 'krest_network']);
       await new Promise((resolve) => {
         setTimeout(resolve, 60000);
       });
