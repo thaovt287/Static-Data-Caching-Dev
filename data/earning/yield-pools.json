@@ -1511,53 +1511,6 @@
       },
       "lastUpdated": 1709267870279
     },
-    "CAPS___native_staking___ternoa_alphanet": {
-      "group": "ternoa_alphanet-NATIVE-CAPS",
-      "chain": "ternoa_alphanet",
-      "slug": "CAPS___native_staking___ternoa_alphanet",
-      "type": "NATIVE_STAKING",
-      "metadata": {
-        "name": "Ternoa Alphanet Native Staking",
-        "shortName": "Ternoa Alphanet",
-        "logo": "ternoa_alphanet",
-        "inputAsset": "ternoa_alphanet-NATIVE-CAPS",
-        "isAvailable": true,
-        "maintainAsset": "ternoa_alphanet-NATIVE-CAPS",
-        "maintainBalance": "1000000000000000000",
-        "availableMethod": {
-          "join": true,
-          "defaultUnstake": true,
-          "fastUnstake": false,
-          "cancelUnstake": true,
-          "withdraw": true,
-          "claimReward": false
-        },
-        "description": "Start staking with just 0 CAPS"
-      },
-      "statistic": {
-        "assetEarning": [
-          {
-            "slug": "ternoa_alphanet-NATIVE-CAPS",
-            "apy": 9040.270758122744
-          }
-        ],
-        "maxCandidatePerFarmer": 24,
-        "maxWithdrawalRequestPerFarmer": 32,
-        "earningThreshold": {
-          "join": "414459224412",
-          "defaultUnstake": "0",
-          "fastUnstake": "0"
-        },
-        "farmerCount": 78,
-        "era": 1786,
-        "eraTime": 24,
-        "tvl": "615312500028689909254908",
-        "totalApy": 9040.270758122744,
-        "unstakingPeriod": 672,
-        "inflation": 2.5041550000000004
-      },
-      "lastUpdated": 1707139854301
-    },
     "KMA___native_staking___calamari_test": {
       "group": "calamari_test-NATIVE-KMA",
       "chain": "calamari_test",
