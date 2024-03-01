@@ -33,14 +33,19 @@ const runBrowser = async () => {
     return acc;
   }, {});
 
+  const finalData = {
+    ...oldData.data,
+    ...poolInfo
+  }
+
+  // Force remove CAPS___native_staking___ternoa_alphanet
+  finalData['CAPS___native_staking___ternoa_alphanet'] && delete finalData['CAPS___native_staking___ternoa_alphanet'];
+
   const updateDate = new Date();
   await writeJSONFile('earning/yield-pools.json', {
     lastUpdated: updateDate.getTime(),
     lastUpdatedTimestamp: updateDate.toISOString(),
-    data: {
-      ...oldData.data,
-      ...poolInfo
-    }
+    data: finalData
   });
 
   const data = await page.evaluate(async () => {
