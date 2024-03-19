@@ -21,9 +21,13 @@ const runBrowser = async () => {
 
       return await koniState.earningService.getYieldPoolInfo();
     } catch (e) {
-      return [];
+      return false;
     }
   })
+
+  if (!result) {
+    throw new Error('Failed to fetch yield pool info');
+  }
 
   const poolInfo = result.reduce((acc, pool) => {
     if (pool.statistic) {
