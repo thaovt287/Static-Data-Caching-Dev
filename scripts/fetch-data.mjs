@@ -90,9 +90,7 @@ const runBrowser = async () => {
 
 const main = async () => {
   const errTimeout = setTimeout(() => {
-    console.log('Timeout');
-    // Close process
-    process.exit(0);
+    throw new Error('Failed to fetch data');
   }, 180000);
 
   // Run browser
