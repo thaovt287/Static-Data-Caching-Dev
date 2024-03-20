@@ -1979,51 +1979,6 @@
         "tvl": "8.945812108110094e+23"
       },
       "lastUpdated": 1710926269366
-    },
-    "PLMC___native_staking___polimec": {
-      "group": "polimec-NATIVE-PLMC",
-      "chain": "polimec",
-      "slug": "PLMC___native_staking___polimec",
-      "type": "NATIVE_STAKING",
-      "metadata": {
-        "name": "Polimec Polkadot Native Staking",
-        "shortName": "Polimec Polkadot",
-        "logo": "polimec",
-        "inputAsset": "polimec-NATIVE-PLMC",
-        "isAvailable": true,
-        "maintainAsset": "polimec-NATIVE-PLMC",
-        "maintainBalance": "10000000000",
-        "availableMethod": {
-          "join": true,
-          "defaultUnstake": true,
-          "fastUnstake": false,
-          "cancelUnstake": true,
-          "withdraw": true,
-          "claimReward": false
-        },
-        "description": "Start staking with just 0 PLMC"
-      },
-      "statistic": {
-        "assetEarning": [
-          {
-            "slug": "polimec-NATIVE-PLMC"
-          }
-        ],
-        "maxCandidatePerFarmer": 100,
-        "maxWithdrawalRequestPerFarmer": 1,
-        "earningThreshold": {
-          "join": "0",
-          "defaultUnstake": "0",
-          "fastUnstake": "0"
-        },
-        "farmerCount": 0,
-        "era": 1604,
-        "eraTime": 6,
-        "tvl": "125463153425701810",
-        "unstakingPeriod": 168,
-        "inflation": 1.1
-      },
-      "lastUpdated": 1710926270041
     }
   }
 }
