@@ -14,7 +14,7 @@ const runBrowser = async () => {
       koniState.earningService.disableOnlineCacheOnly && koniState.earningService.disableOnlineCacheOnly();
 
       await koniState.eventService.waitChainReady;
-      await koniState.chainService.enableChains(['polkadot', 'kusama', 'aleph', 'polkadex', 'ternoa', 'alephTest', 'polkadexTest', 'westend', 'kate', 'edgeware', 'creditcoin', 'vara_network', 'goldberg_testnet', 'moonbeam', 'moonriver', 'moonbase', 'turing', 'turingStaging', 'bifrost', 'bifrost_testnet', 'calamari_test', 'calamari', 'manta_network', 'astar', 'shiden', 'shibuya', 'amplitude', 'amplitude_test', 'kilt', 'kilt_peregrine', 'pendulum', 'bifrost_dot', 'acala', 'parallel', 'interlay', 'krest_network']);
+      await koniState.chainService.enableChains(['polkadot', 'kusama', 'aleph', 'polkadex', 'ternoa', 'alephTest', 'polkadexTest', 'westend', 'kate', 'edgeware', 'creditcoin', 'vara_network', 'goldberg_testnet', 'moonbeam', 'moonriver', 'moonbase', 'turing', 'turingStaging', 'bifrost', 'bifrost_testnet', 'calamari_test', 'calamari', 'manta_network', 'astar', 'shiden', 'shibuya', 'amplitude', 'amplitude_test', 'kilt', 'kilt_peregrine', 'pendulum', 'bifrost_dot', 'acala', 'parallel', 'interlay', 'krest_network', 'polimec']);
       await new Promise((resolve) => {
         setTimeout(resolve, 60000);
       });
@@ -44,7 +44,6 @@ const runBrowser = async () => {
 
   // Force remove CAPS___native_staking___ternoa_alphanet
   finalData['CAPS___native_staking___ternoa_alphanet'] && delete finalData['CAPS___native_staking___ternoa_alphanet'];
-  finalData['PLMC___native_staking___polimec'] && delete finalData['PLMC___native_staking___polimec'];
 
   const updateDate = new Date();
   await writeJSONFile('earning/yield-pools.json', {
