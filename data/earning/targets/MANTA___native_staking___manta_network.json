@@ -11,7 +11,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 37.433871638723275
+    "expectedReturn": 38.02806007743317
   },
   {
     "commission": 10,
@@ -25,7 +25,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 39.149857691183726
+    "expectedReturn": 39.771284003742196
   },
   {
     "commission": 10,
@@ -39,7 +39,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 35.321647194816215
+    "expectedReturn": 35.8823082614006
   },
   {
     "commission": 10,
@@ -53,7 +53,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 34.441516527176205
+    "expectedReturn": 34.98820726570281
   },
   {
     "commission": 10,
@@ -67,7 +67,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 70.33459613135503
+    "expectedReturn": 71.45101829217018
   },
   {
     "commission": 10,
@@ -81,7 +81,7 @@
     "minBond": "520000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 41.161014206666614
+    "expectedReturn": 41.814363638518465
   },
   {
     "commission": 10,
@@ -95,7 +95,7 @@
     "minBond": "643000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 43.500573559126835
+    "expectedReturn": 44.19105885371615
   },
   {
     "commission": 10,
@@ -109,7 +109,7 @@
     "minBond": "825230000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 41.12906961600252
+    "expectedReturn": 41.7819119908597
   },
   {
     "commission": 10,
@@ -123,7 +123,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 35.93206533587954
+    "expectedReturn": 36.5024155793062
   },
   {
     "commission": 10,
@@ -137,7 +137,7 @@
     "minBond": "501000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 40.626043779908215
+    "expectedReturn": 41.27090161768454
   },
   {
     "commission": 10,
@@ -151,7 +151,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 31.1755096177852
+    "expectedReturn": 31.670358976797665
   },
   {
     "commission": 10,
@@ -165,29 +165,29 @@
     "minBond": "501250000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 34.92733411768527
+    "expectedReturn": 35.481736246537416
   },
   {
     "commission": 10,
     "address": "dfabGCMsPPryBnXEkJK64wx5VDRFb1YM5DXxEyinZHrQ1qbHB",
-    "totalStake": "746570794813955300628612",
+    "totalStake": "746581304813955300628612",
     "ownStake": "400000000000000000000000",
-    "otherStake": "346570794813955300628612",
+    "otherStake": "346581304813955300628612",
     "nominatorCount": 107,
     "blocked": false,
     "isVerified": false,
     "minBond": "750000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 43.30012145889505
+    "expectedReturn": 43.98680615547632
   },
   {
     "commission": 10,
     "address": "dfafqAJkRGRy4B5kSttFyysPYz4V1jCgcuvqgdYk2sWN9sCjF",
-    "totalStake": "939602977590019506225184",
+    "totalStake": "936602977590019506225184",
     "ownStake": "400000000000000000000000",
-    "otherStake": "539602977590019506225184",
-    "nominatorCount": 91,
+    "otherStake": "536602977590019506225184",
+    "nominatorCount": 90,
     "blocked": false,
     "isVerified": false,
     "minBond": "500000000000000000000",
@@ -207,35 +207,49 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 35.95704678207202
+    "expectedReturn": 36.52779355639063
+  },
+  {
+    "commission": 10,
+    "address": "dfaUSUEo82ko3bKzkCjnZh5FgMp27LSVo6Mdb9Ny8FHm2UWT4",
+    "totalStake": "400000000000000000000000",
+    "ownStake": "400000000000000000000000",
+    "otherStake": "0",
+    "nominatorCount": 0,
+    "blocked": false,
+    "isVerified": false,
+    "minBond": "0",
+    "chain": "manta_network",
+    "isCrowded": false,
+    "expectedReturn": 0
   },
   {
     "commission": 10,
     "address": "dfYgeCPabdxHMqP8rhvD6QEEpvQfXAUBurx9DcrpnuuY6rxRq",
-    "totalStake": "825289080000000000000000",
+    "totalStake": "825296280000000000000000",
     "ownStake": "400000000000000000000000",
-    "otherStake": "425289080000000000000000",
+    "otherStake": "425296280000000000000000",
     "nominatorCount": 108,
     "blocked": false,
     "isVerified": false,
     "minBond": "709000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 24.313990634938314
+    "expectedReturn": 24.699711639081997
   },
   {
     "commission": 10,
     "address": "dfbubzPdnd6WdWJFmX8pGEgYKY9EzUbxzMjNrsDFG36tisSoy",
-    "totalStake": "834618210000000000000000",
+    "totalStake": "834620280000000000000000",
     "ownStake": "400000000000000000000000",
-    "otherStake": "434618210000000000000000",
+    "otherStake": "434620280000000000000000",
     "nominatorCount": 125,
     "blocked": false,
     "isVerified": false,
     "minBond": "1304000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 40.07063055491335
+    "expectedReturn": 40.70657141074061
   },
   {
     "commission": 10,
@@ -249,21 +263,21 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 67.4495779902517
+    "expectedReturn": 68.52020621231918
   },
   {
     "commission": 10,
     "address": "dfarLxJpqVtH38Q1V4i2EnLmiikgQmpGTnzMQ7yDXZvPFbWio",
-    "totalStake": "769040728928261318889959",
+    "totalStake": "769055988928261318889959",
     "ownStake": "400000000000000000000000",
-    "otherStake": "369040728928261318889959",
+    "otherStake": "369055988928261318889959",
     "nominatorCount": 105,
     "blocked": false,
     "isVerified": false,
     "minBond": "550000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 42.035794777085954
+    "expectedReturn": 42.70218283012436
   },
   {
     "commission": 10,
@@ -277,7 +291,7 @@
     "minBond": "700212921232527590000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 43.32001419411609
+    "expectedReturn": 44.007633467038566
   },
   {
     "commission": 10,
@@ -291,7 +305,7 @@
     "minBond": "650000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 33.683729459731154
+    "expectedReturn": 34.218391832107834
   },
   {
     "commission": 10,
@@ -305,49 +319,49 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 36.3339969208026
+    "expectedReturn": 36.91072703065661
   },
   {
     "commission": 10,
     "address": "dfbM24qYytnWYmzso4tmx1sd5S7teFGGSJuthbL93CeEzfTFX",
-    "totalStake": "931440780000000000000000",
+    "totalStake": "931446960000000000000000",
     "ownStake": "400001000000000000000000",
-    "otherStake": "531439780000000000000000",
+    "otherStake": "531445960000000000000000",
     "nominatorCount": 98,
     "blocked": false,
     "isVerified": false,
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 34.71063489016708
+    "expectedReturn": 35.261363519262694
   },
   {
     "commission": 10,
     "address": "dfaWMYxRAX2EMwUvCtf4Xk53U4vSgedTDmzjMeYxg6ULTAKKZ",
-    "totalStake": "806504090000000000000000",
+    "totalStake": "806516010000000000000000",
     "ownStake": "400000000000000000000000",
-    "otherStake": "406504090000000000000000",
+    "otherStake": "406516010000000000000000",
     "nominatorCount": 107,
     "blocked": false,
     "isVerified": false,
     "minBond": "691000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 41.46659685775637
+    "expectedReturn": 42.124174605132914
   },
   {
     "commission": 10,
     "address": "dfZh4fiDbcGqXQoi5o3fHzeFJvAkJUoBCKv4qazAV3JYfLfNQ",
-    "totalStake": "758904466132174751071640",
+    "totalStake": "758914696132174751071640",
     "ownStake": "400000000000000000000000",
-    "otherStake": "358904466132174751071640",
+    "otherStake": "358914696132174751071640",
     "nominatorCount": 123,
     "blocked": false,
     "isVerified": false,
     "minBond": "948740000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 35.25258515586993
+    "expectedReturn": 35.811667577695594
   },
   {
     "commission": 10,
@@ -361,7 +375,7 @@
     "minBond": "511000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 43.513493954678886
+    "expectedReturn": 44.204184334911886
   },
   {
     "commission": 10,
@@ -375,7 +389,7 @@
     "minBond": "501000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 30.365317421585107
+    "expectedReturn": 30.847306587007093
   },
   {
     "commission": 10,
@@ -389,7 +403,7 @@
     "minBond": "1052000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 43.99461469081457
+    "expectedReturn": 44.69294190812909
   },
   {
     "commission": 10,
@@ -403,7 +417,7 @@
     "minBond": "617450000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 39.068458653855714
+    "expectedReturn": 39.68859291820263
   },
   {
     "commission": 10,
@@ -417,21 +431,21 @@
     "minBond": "700000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 43.66419661983787
+    "expectedReturn": 44.35727910586704
   },
   {
     "commission": 10,
     "address": "dfYq23dCFus7HPomFYUtzqqKSYkywobsvesYwKwJYpMctvhYg",
-    "totalStake": "807865430000000000000000",
+    "totalStake": "807877040000000000000000",
     "ownStake": "400000000000000000000000",
-    "otherStake": "407865430000000000000000",
+    "otherStake": "407877040000000000000000",
     "nominatorCount": 100,
     "blocked": false,
     "isVerified": false,
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 41.39676440961922
+    "expectedReturn": 42.053251926078566
   },
   {
     "commission": 10,
@@ -445,7 +459,7 @@
     "minBond": "605000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 42.693583974904485
+    "expectedReturn": 43.37125991101408
   },
   {
     "commission": 10,
@@ -459,7 +473,7 @@
     "minBond": "679560000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 43.87520509957871
+    "expectedReturn": 44.571636926556145
   },
   {
     "commission": 10,
@@ -473,7 +487,7 @@
     "minBond": "605000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 44.0972660428672
+    "expectedReturn": 44.79722264672223
   },
   {
     "commission": 10,
@@ -487,7 +501,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 66.51413138743284
+    "expectedReturn": 67.56991125072541
   },
   {
     "commission": 10,
@@ -501,7 +515,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 35.23417618516788
+    "expectedReturn": 35.79344882302769
   },
   {
     "commission": 10,
@@ -515,7 +529,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 66.4280536320025
+    "expectedReturn": 67.48246718171683
   },
   {
     "commission": 10,
@@ -529,7 +543,7 @@
     "minBond": "1000000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 41.13508069247307
+    "expectedReturn": 41.78801848124248
   },
   {
     "commission": 10,
@@ -543,21 +557,21 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 33.99542137016431
+    "expectedReturn": 34.535031233182785
   },
   {
     "commission": 10,
     "address": "dfbAyQxtNoRPJ7N6djvb1xHLjXjoTdx7Wd9yYXwGnXu5Lk2q3",
-    "totalStake": "915892008511013788064349",
+    "totalStake": "915895008511013788064349",
     "ownStake": "400000000000000000000000",
-    "otherStake": "515892008511013788064349",
+    "otherStake": "515895008511013788064349",
     "nominatorCount": 117,
     "blocked": false,
     "isVerified": false,
     "minBond": "692000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 35.29958342434491
+    "expectedReturn": 35.85977687790605
   },
   {
     "commission": 10,
@@ -571,7 +585,7 @@
     "minBond": "1040000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 35.72859775446022
+    "expectedReturn": 36.295718353737364
   },
   {
     "commission": 10,
@@ -585,7 +599,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 35.454686573247244
+    "expectedReturn": 36.0174593759972
   },
   {
     "commission": 10,
@@ -599,7 +613,7 @@
     "minBond": "1000000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 41.66661814216172
+    "expectedReturn": 42.32799303330714
   },
   {
     "commission": 10,
@@ -613,7 +627,7 @@
     "minBond": "1264320000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 43.66319660387141
+    "expectedReturn": 44.35626321663128
   },
   {
     "commission": 10,
@@ -627,7 +641,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 33.10332437096353
+    "expectedReturn": 33.628773964153424
   },
   {
     "commission": 10,
@@ -641,7 +655,7 @@
     "minBond": "500180000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 28.131369777859486
+    "expectedReturn": 28.57789945687313
   },
   {
     "commission": 10,
@@ -655,21 +669,21 @@
     "minBond": "504380000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 38.37355521480555
+    "expectedReturn": 38.98265926583421
   },
   {
     "commission": 10,
     "address": "dfYpWcLbi3cRdsLiB4qtiCdHN2kN3fAFRHM3dxPU7zNHMmXWB",
-    "totalStake": "773047820000000000000000",
+    "totalStake": "773067820000000000000000",
     "ownStake": "400000000000000000000000",
-    "otherStake": "373047820000000000000000",
+    "otherStake": "373067820000000000000000",
     "nominatorCount": 106,
     "blocked": false,
     "isVerified": false,
     "minBond": "589500000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 43.26004468940335
+    "expectedReturn": 43.945575857043394
   },
   {
     "commission": 10,
@@ -683,7 +697,7 @@
     "minBond": "740550000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 44.16177932663154
+    "expectedReturn": 44.86275995086378
   },
   {
     "commission": 10,
@@ -697,21 +711,21 @@
     "minBond": "1024000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 43.416561906806166
+    "expectedReturn": 44.10571368310468
   },
   {
     "commission": 10,
     "address": "dfYxprtVvL4aYB3bmUc22jNLbkqXmEFRwW67JkKsqSf65wGNG",
-    "totalStake": "771579738841117357962994",
+    "totalStake": "771617308841117357962994",
     "ownStake": "400000000000000000000000",
-    "otherStake": "371579738841117357962994",
+    "otherStake": "371617308841117357962994",
     "nominatorCount": 139,
     "blocked": false,
     "isVerified": false,
     "minBond": "1238180000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 43.34230206949762
+    "expectedReturn": 44.028132675073856
   },
   {
     "commission": 10,
@@ -725,7 +739,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 28.319630478761667
+    "expectedReturn": 28.769148422868994
   },
   {
     "commission": 10,
@@ -739,7 +753,7 @@
     "minBond": "508660000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 43.68781258022458
+    "expectedReturn": 44.38126992276783
   },
   {
     "commission": 10,
@@ -753,7 +767,7 @@
     "minBond": "914000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 44.30281405321894
+    "expectedReturn": 45.00603332390495
   },
   {
     "commission": 10,
@@ -767,7 +781,7 @@
     "minBond": "855000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 44.22514617909108
+    "expectedReturn": 44.92713262637823
   },
   {
     "commission": 10,
@@ -781,7 +795,7 @@
     "minBond": "502000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 18.332537716901538
+    "expectedReturn": 18.623530379074577
   },
   {
     "commission": 10,
@@ -795,7 +809,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 34.36507833884802
+    "expectedReturn": 34.91055577279799
   },
   {
     "commission": 10,
@@ -809,7 +823,7 @@
     "minBond": "740210000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 36.27958629697786
+    "expectedReturn": 36.85545274613624
   },
   {
     "commission": 10,
@@ -823,7 +837,7 @@
     "minBond": "641000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 44.28444107219466
+    "expectedReturn": 44.98736870826124
   },
   {
     "commission": 10,
@@ -837,7 +851,7 @@
     "minBond": "500000000000000000000",
     "chain": "manta_network",
     "isCrowded": false,
-    "expectedReturn": 66.88591476247707
+    "expectedReturn": 67.94759594918307
   },
   {
     "commission": 10,
@@ -851,21 +865,21 @@
     "minBond": "503000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 38.00776376626563
+    "expectedReturn": 38.611061603825405
   },
   {
     "commission": 10,
     "address": "dfYcFb8yaXMCqK4Cvs633q6VsAcX24BEVfVwqKpfBhgjYteiM",
-    "totalStake": "874735064220000000000000",
+    "totalStake": "874185064220000000000000",
     "ownStake": "400000000000000000000000",
-    "otherStake": "474735064220000000000000",
-    "nominatorCount": 100,
+    "otherStake": "474185064220000000000000",
+    "nominatorCount": 99,
     "blocked": false,
     "isVerified": false,
     "minBond": "500000000000000000000",
     "chain": "manta_network",
-    "isCrowded": true,
-    "expectedReturn": 38.23397236994046
+    "isCrowded": false,
+    "expectedReturn": 38.86528386613371
   },
   {
     "commission": 10,
@@ -879,6 +893,6 @@
     "minBond": "720000000000000000000",
     "chain": "manta_network",
     "isCrowded": true,
-    "expectedReturn": 44.33406692277133
+    "expectedReturn": 45.037782270751826
   }
 ]
