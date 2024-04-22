@@ -11,12 +11,19 @@ const runBrowser = async () => {
 
   const page = await virtualBrowser.openPage(webRunnerURL)
   const result = await page.evaluate(async () => {
-    try {
-        await new Promise((resolve) => {
-            setTimeout(resolve, 3000);
-        });
-
-      const koniState = window.SubWalletState;
+    // try {
+      const koniState = await new Promise((resolve) => {
+        if (window.SubWalletState) {
+          resolve(window.SubWalletState);
+        } else {
+          const interval = setInterval(() => {
+            if (window.SubWalletState) {
+              resolve(window.SubWalletState);
+              clearInterval(interval);
+            }
+          }, 1);
+        }
+      });
 
       // Disable online cache only
       koniState.earningService.disableOnlineCacheOnly && koniState.earningService.disableOnlineCacheOnly();
@@ -28,9 +35,9 @@ const runBrowser = async () => {
       });
 
       return await koniState.earningService.getYieldPoolInfo();
-    } catch (e) {
-      return false;
-    }
+    // } catch (e) {
+    //   return false;
+    // }
   })
 
   if (!result) {
