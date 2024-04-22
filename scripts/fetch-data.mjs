@@ -2,12 +2,20 @@ import {VirtualBrowser} from "./lib/VirtualBrowser.mjs";
 import {writeJSONFile} from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://swwrc.pages.dev';
+
+console.log('Fetching data from', webRunnerURL);
+
 const runBrowser = async () => {
   const virtualBrowser = VirtualBrowser.getInstance();
 
-  const page = await virtualBrowser.openPage('https://swwrc.pages.dev')
+  const page = await virtualBrowser.openPage(webRunnerURL)
   const result = await page.evaluate(async () => {
     try {
+        await new Promise((resolve) => {
+            setTimeout(resolve, 3000);
+        });
+
       const koniState = window.SubWalletState;
 
       // Disable online cache only
