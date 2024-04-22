@@ -11,7 +11,7 @@ const runBrowser = async () => {
 
   const page = await virtualBrowser.openPage(webRunnerURL)
   const result = await page.evaluate(async () => {
-    // try {
+    try {
       const koniState = await new Promise((resolve) => {
         if (window.SubWalletState) {
           resolve(window.SubWalletState);
@@ -35,9 +35,9 @@ const runBrowser = async () => {
       });
 
       return await koniState.earningService.getYieldPoolInfo();
-    // } catch (e) {
-    //   return false;
-    // }
+    } catch (e) {
+      return false;
+    }
   })
 
   if (!result) {
