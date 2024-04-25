@@ -1,5 +1,21 @@
 [
   {
+    "id": 1,
+    "address": "5EYCAe5ijiYfAXEth5DCfmQ9jnv4BFmdonKpbxwrc2nAw5uj",
+    "name": "boaterpool",
+    "bondedAmount": "10200000000000000000000",
+    "roles": {
+      "depositor": "5HBbxYfaChrez7GHGnAkVgifrFZ2gHXA64LLcdNPvNVbc3MQ",
+      "root": "5HBbxYfaChrez7GHGnAkVgifrFZ2gHXA64LLcdNPvNVbc3MQ",
+      "nominator": "5HBbxYfaChrez7GHGnAkVgifrFZ2gHXA64LLcdNPvNVbc3MQ",
+      "bouncer": "5HBbxYfaChrez7GHGnAkVgifrFZ2gHXA64LLcdNPvNVbc3MQ"
+    },
+    "memberCounter": 3,
+    "state": "Open",
+    "isProfitable": true,
+    "isCrowded": false
+  },
+  {
     "id": 6,
     "address": "5EYCAe5ijiYfAXEth5DCybgrWKqPCuZ4b2E68iqPEMPNdmr2",
     "name": "fukuyamapool",
@@ -155,22 +171,6 @@
       "bouncer": "5FnGxs6MJL6hecQ1grabi4rnitrb3VMTuV4qBPm1EpkbyJSh"
     },
     "memberCounter": 1,
-    "state": "Open",
-    "isProfitable": true,
-    "isCrowded": false
-  },
-  {
-    "id": 1,
-    "address": "5EYCAe5ijiYfAXEth5DCfmQ9jnv4BFmdonKpbxwrc2nAw5uj",
-    "name": "boaterpool",
-    "bondedAmount": "10200000000000000000000",
-    "roles": {
-      "depositor": "5HBbxYfaChrez7GHGnAkVgifrFZ2gHXA64LLcdNPvNVbc3MQ",
-      "root": "5HBbxYfaChrez7GHGnAkVgifrFZ2gHXA64LLcdNPvNVbc3MQ",
-      "nominator": "5HBbxYfaChrez7GHGnAkVgifrFZ2gHXA64LLcdNPvNVbc3MQ",
-      "bouncer": "5HBbxYfaChrez7GHGnAkVgifrFZ2gHXA64LLcdNPvNVbc3MQ"
-    },
-    "memberCounter": 3,
     "state": "Open",
     "isProfitable": true,
     "isCrowded": false
