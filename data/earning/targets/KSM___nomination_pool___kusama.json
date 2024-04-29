@@ -227,14 +227,14 @@
     "id": 160,
     "address": "F3opxRbN5ZavB4LTn2RLo7uW8qKtSVQGP2HTVGobdVgZ7g4",
     "name": "Nova Wallet Pool #1 novawallet.io Recommended validators",
-    "bondedAmount": "3866046191213791",
+    "bondedAmount": "3867367478177096",
     "roles": {
       "depositor": "H3cSNjAW86NfTecufGPhxutea8KrEcZdPa4XgVKfhTMugej",
       "root": "H3cSNjAW86NfTecufGPhxutea8KrEcZdPa4XgVKfhTMugej",
       "nominator": "Gpz3S2X737wLoGF7kxWp4TSnCVRYrvgoWhFfeNYVEtJyDg5",
       "bouncer": "H3cSNjAW86NfTecufGPhxutea8KrEcZdPa4XgVKfhTMugej"
     },
-    "memberCounter": 226,
+    "memberCounter": 227,
     "state": "Open",
     "isProfitable": true,
     "isCrowded": false
@@ -467,7 +467,7 @@
     "id": 16,
     "address": "F3opxRbN5ZavB4LTn2GVDdGByxH4sw6bssNattPxnpGn7vm",
     "name": "proof.computer ",
-    "bondedAmount": "1266542144643758",
+    "bondedAmount": "1266889257588867",
     "roles": {
       "depositor": "JF4qMDoQhW2nV64hT9R76Rx999UKtGZ91EKTbDA2EJWWfBt",
       "root": "JF4qMDoQhW2nV64hT9R76Rx999UKtGZ91EKTbDA2EJWWfBt",
@@ -2259,7 +2259,7 @@
     "id": 24,
     "address": "F3opxRbN5ZavB4LTn2GykVBpSE17XBnFTiCdhueAWBo6jG7",
     "name": "High rewards | Auto compounding | https://dozenodes.com/pool",
-    "bondedAmount": "32489902382726",
+    "bondedAmount": "32491301863977",
     "roles": {
       "depositor": "HZR3vCq7jM7ahJrGfPxVd1ja4hAqQFfr8nwJokhpKiR3RYL",
       "root": "HZR3vCq7jM7ahJrGfPxVd1ja4hAqQFfr8nwJokhpKiR3RYL",
@@ -2387,16 +2387,16 @@
     "id": 194,
     "address": "F3opxRbN5ZavB4LTn2TS4H5vZVA5fpJmcMJfS7bTQpevHzr",
     "name": "Encointer Plankton",
-    "bondedAmount": "1000000000000",
+    "bondedAmount": "2010000000000",
     "roles": {
       "depositor": "EyXct79ZDWdQfcSgJTG5texKM9wJj3quyh1ugPDVSkSt3Xm",
       "root": "EyXct79ZDWdQfcSgJTG5texKM9wJj3quyh1ugPDVSkSt3Xm",
       "nominator": "EyXct79ZDWdQfcSgJTG5texKM9wJj3quyh1ugPDVSkSt3Xm",
       "bouncer": "EyXct79ZDWdQfcSgJTG5texKM9wJj3quyh1ugPDVSkSt3Xm"
     },
-    "memberCounter": 1,
+    "memberCounter": 2,
     "state": "Open",
-    "isProfitable": false,
+    "isProfitable": true,
     "isCrowded": false
   },
   {
@@ -2720,6 +2720,38 @@
     "isCrowded": false
   },
   {
+    "id": 28,
+    "address": "F3opxRbN5ZavB4LTn2HE1v9dfMs8qp85Fdcf7RGGMsZG7UC",
+    "name": "Polkachu Staking Pool - https://polkachu.com/staking_pool",
+    "bondedAmount": "1000000000000",
+    "roles": {
+      "depositor": "HhYW5bwUdYENwEVpSHxCuF2Ww69fTkFmHo22ymSfVo4PiiE",
+      "root": "HhYW5bwUdYENwEVpSHxCuF2Ww69fTkFmHo22ymSfVo4PiiE",
+      "nominator": "HhYW5bwUdYENwEVpSHxCuF2Ww69fTkFmHo22ymSfVo4PiiE",
+      "bouncer": "HhYW5bwUdYENwEVpSHxCuF2Ww69fTkFmHo22ymSfVo4PiiE"
+    },
+    "memberCounter": 1,
+    "state": "Open",
+    "isProfitable": false,
+    "isCrowded": false
+  },
+  {
+    "id": 26,
+    "address": "F3opxRbN5ZavB4LTn2H6tCfj3nw8BVxAMfueQfTDS2gBR35",
+    "name": "iiv.dev",
+    "bondedAmount": "7210952852302",
+    "roles": {
+      "depositor": "E3NaqTcJ17q4aU5m84h2rHKmyUF5Y2QxPF7zf1r5UPpU73t",
+      "root": "E3NaqTcJ17q4aU5m84h2rHKmyUF5Y2QxPF7zf1r5UPpU73t",
+      "nominator": "E3NaqTcJ17q4aU5m84h2rHKmyUF5Y2QxPF7zf1r5UPpU73t",
+      "bouncer": "E3NaqTcJ17q4aU5m84h2rHKmyUF5Y2QxPF7zf1r5UPpU73t"
+    },
+    "memberCounter": 4,
+    "state": "Open",
+    "isProfitable": true,
+    "isCrowded": false
+  },
+  {
     "id": 87,
     "address": "F3opxRbN5ZavB4LTn2LrSWqtkcLUL4AUgTyWqhhFkEY8K3Z",
     "name": "Kusama Brasil Pool 🇧🇷",
@@ -2875,38 +2907,6 @@
       "bouncer": "Cgp9bcq1dGP1Z9B6F2ccTSTHNez9jq2iUX993ZbDVByPSU2"
     },
     "memberCounter": 80,
-    "state": "Open",
-    "isProfitable": true,
-    "isCrowded": false
-  },
-  {
-    "id": 28,
-    "address": "F3opxRbN5ZavB4LTn2HE1v9dfMs8qp85Fdcf7RGGMsZG7UC",
-    "name": "Polkachu Staking Pool - https://polkachu.com/staking_pool",
-    "bondedAmount": "1000000000000",
-    "roles": {
-      "depositor": "HhYW5bwUdYENwEVpSHxCuF2Ww69fTkFmHo22ymSfVo4PiiE",
-      "root": "HhYW5bwUdYENwEVpSHxCuF2Ww69fTkFmHo22ymSfVo4PiiE",
-      "nominator": "HhYW5bwUdYENwEVpSHxCuF2Ww69fTkFmHo22ymSfVo4PiiE",
-      "bouncer": "HhYW5bwUdYENwEVpSHxCuF2Ww69fTkFmHo22ymSfVo4PiiE"
-    },
-    "memberCounter": 1,
-    "state": "Open",
-    "isProfitable": false,
-    "isCrowded": false
-  },
-  {
-    "id": 26,
-    "address": "F3opxRbN5ZavB4LTn2H6tCfj3nw8BVxAMfueQfTDS2gBR35",
-    "name": "iiv.dev",
-    "bondedAmount": "7210952852302",
-    "roles": {
-      "depositor": "E3NaqTcJ17q4aU5m84h2rHKmyUF5Y2QxPF7zf1r5UPpU73t",
-      "root": "E3NaqTcJ17q4aU5m84h2rHKmyUF5Y2QxPF7zf1r5UPpU73t",
-      "nominator": "E3NaqTcJ17q4aU5m84h2rHKmyUF5Y2QxPF7zf1r5UPpU73t",
-      "bouncer": "E3NaqTcJ17q4aU5m84h2rHKmyUF5Y2QxPF7zf1r5UPpU73t"
-    },
-    "memberCounter": 4,
     "state": "Open",
     "isProfitable": true,
     "isCrowded": false
