@@ -19,14 +19,14 @@
     "id": 62,
     "address": "kGi1Ui7VXBFmNxTVDbryg6seURUV3fKBSeDkky8nP3Pjwf6EG",
     "name": "SubWallet Official 03",
-    "bondedAmount": "283500282651240994",
+    "bondedAmount": "284444422651240994",
     "roles": {
       "depositor": "kGkWvacCtQwrRxPcsQJM2Mi1HGdp9e223bU2k8JVRCniyhbzm",
       "root": "kGkWvacCtQwrRxPcsQJM2Mi1HGdp9e223bU2k8JVRCniyhbzm",
       "nominator": "kGkWvacCtQwrRxPcsQJM2Mi1HGdp9e223bU2k8JVRCniyhbzm",
       "bouncer": "kGkWvacCtQwrRxPcsQJM2Mi1HGdp9e223bU2k8JVRCniyhbzm"
     },
-    "memberCounter": 2093,
+    "memberCounter": 2100,
     "state": "Open",
     "isProfitable": true,
     "isCrowded": false
@@ -147,14 +147,14 @@
     "id": 50,
     "address": "kGi1Ui7VXBFmNxTVDbryfN5Mayo5TbMJRAqzWtvFWjpgfB2hq",
     "name": "SubWallet Official 02",
-    "bondedAmount": "6097621013266523357",
+    "bondedAmount": "6097631879056219068",
     "roles": {
       "depositor": "kGjCvG5HmCuUJf1XqXEo7giTkLeSJWaNSB7dfcs5KHvWsHKV6",
       "root": "kGjCvG5HmCuUJf1XqXEo7giTkLeSJWaNSB7dfcs5KHvWsHKV6",
       "nominator": "kGjCvG5HmCuUJf1XqXEo7giTkLeSJWaNSB7dfcs5KHvWsHKV6",
       "bouncer": "kGjCvG5HmCuUJf1XqXEo7giTkLeSJWaNSB7dfcs5KHvWsHKV6"
     },
-    "memberCounter": 41933,
+    "memberCounter": 41934,
     "state": "Open",
     "isProfitable": true,
     "isCrowded": false
@@ -186,7 +186,7 @@
       "nominator": "kGfj3RwQydd6FEc7QyB4ZbjRcnYZcnug5wP75DuLCWvaLLVGc",
       "bouncer": "kGfj3RwQydd6FEc7QyB4ZbjRcnYZcnug5wP75DuLCWvaLLVGc"
     },
-    "memberCounter": 44416,
+    "memberCounter": 44415,
     "state": "Open",
     "isProfitable": true,
     "isCrowded": false
@@ -640,6 +640,22 @@
     "isCrowded": false
   },
   {
+    "id": 26,
+    "address": "kGi1Ui7VXBFmNxTVDbrydtUmp6SGHTRYNE6U2kVBn8ga6D9s5",
+    "name": "Coinbase",
+    "bondedAmount": "172486420000000000",
+    "roles": {
+      "depositor": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d",
+      "root": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d",
+      "nominator": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d",
+      "bouncer": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d"
+    },
+    "memberCounter": 1384,
+    "state": "Open",
+    "isProfitable": false,
+    "isCrowded": false
+  },
+  {
     "id": 39,
     "address": "kGi1Ui7VXBFmNxTVDbryegqvSVRTLXiaUevD8L46YxiYpEbxF",
     "name": "RITA_Varapool",
@@ -957,22 +973,6 @@
     "memberCounter": 722,
     "state": "Open",
     "isProfitable": true,
-    "isCrowded": false
-  },
-  {
-    "id": 26,
-    "address": "kGi1Ui7VXBFmNxTVDbrydtUmp6SGHTRYNE6U2kVBn8ga6D9s5",
-    "name": "Coinbase",
-    "bondedAmount": "172486420000000000",
-    "roles": {
-      "depositor": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d",
-      "root": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d",
-      "nominator": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d",
-      "bouncer": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d"
-    },
-    "memberCounter": 1384,
-    "state": "Open",
-    "isProfitable": false,
     "isCrowded": false
   }
 ]
