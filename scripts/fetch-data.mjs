@@ -2,7 +2,7 @@ import {VirtualBrowser} from "./lib/VirtualBrowser.mjs";
 import {writeJSONFile} from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://ba2fb7ac.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://7293930f.swwrc.pages.dev/';
 
 console.log('Fetching data from', webRunnerURL);
 
