@@ -595,7 +595,7 @@
     "id": 53,
     "address": "5EYCAe5ijiYfAXEth5DFsDzfKjgGURv5X5JCvEawvAh523Fo",
     "name": "Kryptstar Staking Pool",
-    "bondedAmount": "102561226107023474",
+    "bondedAmount": "102563790287328699",
     "roles": {
       "depositor": "5EUePhu1eUiMtcVLzQe46mK5rDWqng1kRqReB5oVn2VHZkVk",
       "root": "5EUePhu1eUiMtcVLzQe46mK5rDWqng1kRqReB5oVn2VHZkVk",
@@ -643,7 +643,7 @@
     "id": 81,
     "address": "5EYCAe5ijiYfAXEth5DHb61Q2KdJdgJUHck765AJdAVQ9KAy",
     "name": "Kintsu OG Pool",
-    "bondedAmount": "4467017275936135",
+    "bondedAmount": "4467626361406751",
     "roles": {
       "depositor": "5H3cVDYDDJhPb6RydRumauX1rRmmbDdeqb1PYzZ5oCfprTKh",
       "root": "5H3cVDYDDJhPb6RydRumauX1rRmmbDdeqb1PYzZ5oCfprTKh",
@@ -1075,7 +1075,7 @@
     "id": 55,
     "address": "5EYCAe5ijiYfAXEth5DFzMi9EMFCV6EFRyFuvwLky6Xx6dx8",
     "name": "AZERO.ID POOL",
-    "bondedAmount": "243457695656248790",
+    "bondedAmount": "243457888641259636",
     "roles": {
       "depositor": "5DQ2iq9eb18eMgqZFHTZKZh7rsXhtjjvE3RiFACTcxWDz2nU",
       "root": "5DQ2iq9eb18eMgqZFHTZKZh7rsXhtjjvE3RiFACTcxWDz2nU",
@@ -1117,22 +1117,6 @@
     "memberCounter": 1,
     "state": "Destroying",
     "isProfitable": false,
-    "isCrowded": false
-  },
-  {
-    "id": 26,
-    "address": "5EYCAe5ijiYfAXEth5DECvqfaTWhKWgmhyqAFkPVjdpBS5XX",
-    "name": "Indonesia First Pool",
-    "bondedAmount": "3180897272833551",
-    "roles": {
-      "depositor": "5Dqe2ppT8uTdQSqfNgD5B3WgM5mUiLoL9jwpAWDUhfWYi5k6",
-      "root": "5Dqe2ppT8uTdQSqfNgD5B3WgM5mUiLoL9jwpAWDUhfWYi5k6",
-      "nominator": "5Dqe2ppT8uTdQSqfNgD5B3WgM5mUiLoL9jwpAWDUhfWYi5k6",
-      "bouncer": "5Dqe2ppT8uTdQSqfNgD5B3WgM5mUiLoL9jwpAWDUhfWYi5k6"
-    },
-    "memberCounter": 17,
-    "state": "Open",
-    "isProfitable": true,
     "isCrowded": false
   },
   {
@@ -1291,6 +1275,22 @@
       "bouncer": "5Fv5gC8ZRoibroKn1uMxVwpAbZvgB7onzRcNaWfNmCFuamHQ"
     },
     "memberCounter": 7,
+    "state": "Open",
+    "isProfitable": true,
+    "isCrowded": false
+  },
+  {
+    "id": 26,
+    "address": "5EYCAe5ijiYfAXEth5DECvqfaTWhKWgmhyqAFkPVjdpBS5XX",
+    "name": "Indonesia First Pool",
+    "bondedAmount": "3180897272833551",
+    "roles": {
+      "depositor": "5Dqe2ppT8uTdQSqfNgD5B3WgM5mUiLoL9jwpAWDUhfWYi5k6",
+      "root": "5Dqe2ppT8uTdQSqfNgD5B3WgM5mUiLoL9jwpAWDUhfWYi5k6",
+      "nominator": "5Dqe2ppT8uTdQSqfNgD5B3WgM5mUiLoL9jwpAWDUhfWYi5k6",
+      "bouncer": "5Dqe2ppT8uTdQSqfNgD5B3WgM5mUiLoL9jwpAWDUhfWYi5k6"
+    },
+    "memberCounter": 17,
     "state": "Open",
     "isProfitable": true,
     "isCrowded": false
