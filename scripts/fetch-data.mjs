@@ -2,7 +2,7 @@ import {VirtualBrowser} from "./lib/VirtualBrowser.mjs";
 import {writeJSONFile} from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://a0f6ede2.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://avail-mainnet-test.swwrc.pages.dev/';
 
 console.log('Fetching data from', webRunnerURL);
 
@@ -31,11 +31,11 @@ const runBrowser = async () => {
       await koniState.eventService.waitChainReady;
       await koniState.chainService.enableChains(['polkadot', 'kusama', 'aleph', 'polkadex', 'ternoa', 'alephTest', 'polkadexTest', 'westend', 'kate', 'edgeware', 'creditcoin', 'vara_network', 'goldberg_testnet', 'moonbeam', 'moonriver', 'moonbase', 'turing', 'turingStaging', 'bifrost', 'bifrost_testnet', 'calamari_test', 'calamari', 'manta_network', 'astar', 'shiden', 'shibuya', 'amplitude', 'amplitude_test', 'kilt', 'kilt_peregrine', 'pendulum', 'bifrost_dot', 'acala', 'parallel', 'interlay', 'krest_network', 'polimec', 'availTuringTest', 'avail_mainnet']);
       await new Promise((resolve) => {
-        setTimeout(resolve, 10000);
+        setTimeout(resolve, 5000);
       });
       await koniState.sleep();
       await new Promise((resolve) => {
-        setTimeout(resolve, 10000);
+        setTimeout(resolve, 5000);
       });
       await koniState.wakeup();
 
