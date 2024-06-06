@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "polimec",
-    "name": "Polimec Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amforc": "wss://polimec.rpc.amforc.com"
-    }
-  },
-  {
     "slug": "logion",
     "name": "logion Standalone",
     "status": "ACTIVE",
@@ -45,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Equilibrium": "wss://node.genshiro.io"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   },
   {
