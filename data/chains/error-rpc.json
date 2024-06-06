@@ -8,6 +8,22 @@
     }
   },
   {
+    "slug": "astarEvm",
+    "name": "Astar - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "https://astar.api.onfinality.io/public"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -24,14 +40,6 @@
     }
   },
   {
-    "slug": "goldberg_testnet",
-    "name": "Avail Goldberg Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Avail Tool Testnet": "wss://rpc-testnet.avail.tools/ws"
-    }
-  },
-  {
     "slug": "polkadex_dot",
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
@@ -40,11 +48,11 @@
     }
   },
   {
-    "slug": "shiden",
-    "name": "Shiden",
+    "slug": "goldberg_testnet",
+    "name": "Avail Goldberg Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
+      "Avail Tool Testnet": "wss://rpc-testnet.avail.tools/ws"
     }
   },
   {
@@ -72,6 +80,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://astar.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "ajunaPolkadot",
     "name": "Ajuna Network",
     "status": "ACTIVE",
@@ -80,11 +96,35 @@
     }
   },
   {
+    "slug": "sora_substrate",
+    "name": "SORA",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "bajun",
     "name": "Bajun Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Allnodes": "wss://polkadot-rpc.publicnode.com"
     }
   },
   {
@@ -128,19 +168,19 @@
     }
   },
   {
-    "slug": "khala",
-    "name": "Khala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "kilt",
     "name": "KILT Spiritnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
     }
   },
   {
@@ -160,19 +200,19 @@
     }
   },
   {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "centrifuge",
     "name": "Centrifuge",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "edgeware",
-    "name": "Edgeware",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Commonwealth Labs": "wss://mainnet2.edgewa.re"
     }
   },
   {
@@ -189,6 +229,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "edgeware",
+    "name": "Edgeware",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Commonwealth Labs": "wss://mainnet2.edgewa.re"
     }
   }
 ]
