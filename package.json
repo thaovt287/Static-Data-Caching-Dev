@@ -9,9 +9,14 @@
   "type": "module",
   "private": false,
   "scripts": {
-    "fetch-data": "node ./scripts/fetch-data.mjs"
+    "fetch-data": "node ./scripts/fetch-data.mjs",
+    "export-error-rpc": "node ./scripts/export-error-rpc.js"
   },
   "dependencies": {
-    "puppeteer": "^21.9.0"
+    "@polkadot/api": "^11.2.1",
+    "axios": "^1.7.2",
+    "bluebird": "^3.7.2",
+    "puppeteer": "^21.9.0",
+    "web3": "^4.9.0"
   }
 }
