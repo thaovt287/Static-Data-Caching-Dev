@@ -2,6 +2,9 @@ name: RPC Health Check Dev
 on:
   schedule:
     - cron: "*/15 * * * *"
+  push:
+    branches:
+      - dev
   workflow_dispatch:
     branches:
       - dev
@@ -68,6 +71,6 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: 'sw-static-cache'
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
-          branch: ${{ github.ref_name }}
+          branch: dev
           directory: './data'
           wranglerVersion: '3'
