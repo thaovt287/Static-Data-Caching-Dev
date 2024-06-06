@@ -1,14 +1,10 @@
 name: RPC Health Check
 on:
-  push:
-    branches:
-      - health-check
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
     branches:
       - dev
-      - health-check
     inputs:
       note:
         description: 'Health check'
