@@ -5,7 +5,7 @@ import fs from 'fs'
 import createApiRequest from "../utils/baseApi.js";
 
 
-const URL_GET_CHAIN = 'https://static-data.subwallet.app/chains/list.json'
+const URL_GET_CHAIN = 'https://static-data.subwallet.app/chains'
 const CHAIN_TYPE = {
   EVM: 'evm',
   SUBSTRATE: 'substrate',
@@ -17,8 +17,9 @@ const STATUS = {
 
 const getChains = async (url = URL_GET_CHAIN) => {
 
+  const fileName = process.env.BRANCH === 'main' ? 'list.json' : 'preview.json'
   const {success, data} = await createApiRequest({
-    url,
+    url: `${url}/${fileName}`,
     method: 'GET',
   })
   if (!success) {
