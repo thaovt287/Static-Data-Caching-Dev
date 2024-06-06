@@ -1,29 +1,5 @@
 [
   {
-    "slug": "shidenEvm",
-    "name": "Shiden - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "https://shiden.api.onfinality.io/public"
-    }
-  },
-  {
-    "slug": "astarEvm",
-    "name": "Astar - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "https://astar.api.onfinality.io/public"
-    }
-  },
-  {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -37,14 +13,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Amforc": "wss://paseo.rpc.amforc.com"
-    }
-  },
-  {
-    "slug": "polkadex_dot",
-    "name": "Polkadex Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -80,155 +48,11 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://astar.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "ajunaPolkadot",
-    "name": "Ajuna Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "sora_substrate",
-    "name": "SORA",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "bajun",
-    "name": "Bajun Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Allnodes": "wss://polkadot-rpc.publicnode.com"
-    }
-  },
-  {
-    "slug": "integritee",
-    "name": "Integritee Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "genshiro",
     "name": "Genshiro",
     "status": "ACTIVE",
     "errorRpcs": {
       "Equilibrium": "wss://node.genshiro.io"
-    }
-  },
-  {
-    "slug": "zeitgeist",
-    "name": "Zeitgeist",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kintsugi",
-    "name": "Kintsugi",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://kintsugi.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kilt",
-    "name": "KILT Spiritnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "khala",
-    "name": "Khala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "karura",
-    "name": "Karura",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "polkadex",
-    "name": "Polkadex",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "centrifuge",
-    "name": "Centrifuge",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "bifrost",
-    "name": "Bifrost Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "bifrost_dot",
-    "name": "Bifrost Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
     }
   },
   {
