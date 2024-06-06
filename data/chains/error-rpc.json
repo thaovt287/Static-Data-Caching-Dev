@@ -1,5 +1,13 @@
 [
   {
+    "slug": "shidenEvm",
+    "name": "Shiden - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "https://shiden.api.onfinality.io/public"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -21,6 +29,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Avail Tool Testnet": "wss://rpc-testnet.avail.tools/ws"
+    }
+  },
+  {
+    "slug": "polkadex_dot",
+    "name": "Polkadex Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
     }
   },
   {
@@ -48,6 +72,30 @@
     }
   },
   {
+    "slug": "ajunaPolkadot",
+    "name": "Ajuna Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "bajun",
+    "name": "Bajun Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "integritee",
+    "name": "Integritee Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "genshiro",
     "name": "Genshiro",
     "status": "ACTIVE",
@@ -56,11 +104,91 @@
     }
   },
   {
+    "slug": "zeitgeist",
+    "name": "Zeitgeist",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kintsugi",
+    "name": "Kintsugi",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://kintsugi.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kilt",
+    "name": "KILT Spiritnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "karura",
+    "name": "Karura",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "centrifuge",
+    "name": "Centrifuge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "edgeware",
     "name": "Edgeware",
     "status": "ACTIVE",
     "errorRpcs": {
       "Commonwealth Labs": "wss://mainnet2.edgewa.re"
+    }
+  },
+  {
+    "slug": "bifrost",
+    "name": "Bifrost Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "bifrost_dot",
+    "name": "Bifrost Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
     }
   }
 ]
