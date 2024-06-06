@@ -14,6 +14,8 @@ on:
         required: false
         default: ''
 
+concurrency: 'dev'
+
 jobs:
   master:
     if: "! startsWith(github.event.head_commit.message, '[CI Skip]')"
