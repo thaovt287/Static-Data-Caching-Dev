@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "bittensor",
+    "name": "Bittensor",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
+    }
+  },
+  {
     "slug": "darwinia2",
     "name": "Darwinia 2",
     "status": "ACTIVE",
@@ -45,6 +53,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Avail Tool Testnet": "wss://rpc-testnet.avail.tools/ws"
+    }
+  },
+  {
+    "slug": "hydradx_main",
+    "name": "HydraDX",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://hydradx.paras.dotters.network"
     }
   },
   {
