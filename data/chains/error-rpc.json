@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "energy_web_x",
-    "name": "Energy Web X",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EWX": "wss://public-rpc.mainnet.energywebx.com/ws"
-    }
-  },
-  {
     "slug": "genshiro",
     "name": "Genshiro",
     "status": "ACTIVE",
@@ -61,6 +53,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   }
 ]
