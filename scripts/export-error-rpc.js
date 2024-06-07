@@ -136,7 +136,7 @@ const getErrorRpc = async (chainInfo) => {
     }
   }, {concurrency: 10})
 
-  return errorRpcs
+  return Object.fromEntries(Object.entries(errorRpcs).sort())
 }
 
 const writeFileSync = (data) => {
