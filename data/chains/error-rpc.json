@@ -24,11 +24,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "energy_web_x",
+    "name": "Energy Web X",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "EWX": "wss://public-rpc.mainnet.energywebx.com/ws"
     }
   },
   {
@@ -45,6 +45,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Avail Tool Testnet": "wss://rpc-testnet.avail.tools/ws"
+    }
+  },
+  {
+    "slug": "krest_network",
+    "name": "Krest Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
     }
   },
   {
