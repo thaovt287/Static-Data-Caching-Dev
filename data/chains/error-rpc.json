@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "aventus_testnet",
+    "name": "Aventus Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Aventus": "wss://public-rpc.public-testnet.aventus.io"
+    }
+  },
+  {
     "slug": "darwinia2",
     "name": "Darwinia 2",
     "status": "ACTIVE",
@@ -21,6 +29,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Commonwealth Labs": "wss://mainnet2.edgewa.re"
+    }
+  },
+  {
+    "slug": "energy_web_x",
+    "name": "Energy Web X",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://public-rpc.mainnet.energywebx.com/ws"
     }
   },
   {
