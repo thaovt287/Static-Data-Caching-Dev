@@ -168,7 +168,7 @@ const checkHealthRpc = async () => {
 
   }, {concurrency: 20})
 
-  writeFileSync(errorChain)
+  writeFileSync(errorChain.sort((a, b) => (a.slug > b.slug) ? 1 : ((b.slug > a.slug) ? -1 : 0)))
 }
 
 setImmediate(async () => {
