@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Blast": "wss://astar.public.blastapi.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -37,6 +29,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Commonwealth Labs": "wss://mainnet2.edgewa.re"
+    }
+  },
+  {
+    "slug": "energy_web_x",
+    "name": "Energy Web X",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://public-rpc.mainnet.energywebx.com/ws"
     }
   },
   {
