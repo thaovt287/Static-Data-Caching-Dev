@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "crabParachain",
+    "name": "Crab2 Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crab": "wss://crab-rpc.darwinia.network/"
+    }
+  },
+  {
     "slug": "darwinia2",
     "name": "Darwinia 2",
     "status": "ACTIVE",
@@ -29,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Commonwealth Labs": "wss://mainnet2.edgewa.re"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
