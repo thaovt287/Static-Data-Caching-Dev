@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "calamari_test",
-    "name": "Calamari Staging",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
     "slug": "darwinia2",
     "name": "Darwinia 2",
     "status": "ACTIVE",
@@ -37,14 +29,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Commonwealth Labs": "wss://mainnet2.edgewa.re"
-    }
-  },
-  {
-    "slug": "energy_web_x",
-    "name": "Energy Web X",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EWX": "wss://public-rpc.mainnet.energywebx.com/ws"
     }
   },
   {
@@ -77,14 +61,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadex",
-    "name": "Polkadex",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   }
 ]
