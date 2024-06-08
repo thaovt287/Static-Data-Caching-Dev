@@ -8,19 +8,19 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "crabParachain",
-    "name": "Crab2 Parachain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crab": "wss://crab-rpc.darwinia.network/"
     }
   },
   {
@@ -37,14 +37,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Commonwealth Labs": "wss://mainnet2.edgewa.re"
-    }
-  },
-  {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
