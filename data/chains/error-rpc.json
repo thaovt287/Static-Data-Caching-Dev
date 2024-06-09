@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "bajun",
-    "name": "Bajun Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "darwinia2",
     "name": "Darwinia 2",
     "status": "ACTIVE",
@@ -53,14 +45,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
     }
   }
 ]
