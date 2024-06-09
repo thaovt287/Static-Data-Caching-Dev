@@ -16,22 +16,6 @@
     }
   },
   {
-    "slug": "bifrost",
-    "name": "Bifrost Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Liebi 0": "wss://bifrost-rpc.liebi.com/ws"
-    }
-  },
-  {
-    "slug": "bifrost_testnet",
-    "name": "Bifrost Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Liebi": "wss://bifrost-rpc.rococo.liebi.com/ws"
-    }
-  },
-  {
     "slug": "darwinia2",
     "name": "Darwinia 2",
     "status": "ACTIVE",
@@ -40,35 +24,11 @@
     }
   },
   {
-    "slug": "hyperbridge",
-    "name": "Hyperbridge",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
-    }
-  },
-  {
-    "slug": "integritee",
-    "name": "Integritee Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Integritee": "wss://kusama.api.integritee.network"
-    }
-  },
-  {
     "slug": "logion",
     "name": "logion Standalone",
     "status": "ACTIVE",
     "errorRpcs": {
       "Logion": "wss://rpc01.logion.network"
-    }
-  },
-  {
-    "slug": "origintrail",
-    "name": "NeuroWeb Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "TraceLabs": "wss://parachain-rpc.origin-trail.network"
     }
   },
   {
