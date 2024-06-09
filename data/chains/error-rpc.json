@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "edgeware",
-    "name": "Edgeware",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Commonwealth Labs": "wss://mainnet2.edgewa.re"
-    }
-  },
-  {
     "slug": "energy_web_x",
     "name": "Energy Web X",
     "status": "ACTIVE",
@@ -40,19 +32,11 @@
     }
   },
   {
-    "slug": "genshiro",
-    "name": "Genshiro",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Equilibrium": "wss://node.genshiro.io"
-    }
-  },
-  {
-    "slug": "goldberg_testnet",
-    "name": "Avail Goldberg Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Avail Tool Testnet": "wss://rpc-testnet.avail.tools/ws"
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
