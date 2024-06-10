@@ -24,11 +24,19 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "kusama",
     "name": "Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
+      "Stakeworld": "wss://ksm-rpc.stakeworld.io"
     }
   },
   {
