@@ -8,19 +8,19 @@
     }
   },
   {
+    "slug": "ajunaPolkadot",
+    "name": "Ajuna Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "bittensor",
-    "name": "Bittensor",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
     }
   },
   {
@@ -32,11 +32,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "hyperbridge",
+    "name": "Hyperbridge",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
     }
   },
   {
