@@ -38,21 +38,5 @@
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
     }
-  },
-  {
-    "slug": "shidenEvm",
-    "name": "Shiden - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "https://shiden.api.onfinality.io/public"
-    }
-  },
-  {
-    "slug": "statemint",
-    "name": "Polkadot Asset Hub (Statemint)",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "IBP-GeoDNS1": "wss://sys.ibp.network/statemint"
-    }
   }
 ]
