@@ -16,19 +16,19 @@
     }
   },
   {
-    "slug": "bittensor",
-    "name": "Bittensor",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
-    }
-  },
-  {
     "slug": "darwinia2",
     "name": "Darwinia 2",
     "status": "ACTIVE",
     "errorRpcs": {
       "Darwinia Community": "wss://darwinia-rpc.darwiniacommunitydao.xyz"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
