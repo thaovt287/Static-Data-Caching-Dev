@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "centrifuge",
+    "name": "Centrifuge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "darwinia2",
     "name": "Darwinia 2",
     "status": "ACTIVE",
@@ -24,11 +32,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "hyperbridge",
+    "name": "Hyperbridge",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
     }
   },
   {
