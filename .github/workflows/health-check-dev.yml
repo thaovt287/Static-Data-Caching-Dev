@@ -2,9 +2,6 @@ name: RPC Health Check Dev
 on:
   schedule:
     - cron: "*/15 * * * *"
-  push:
-    branches:
-      - dev
   workflow_dispatch:
     branches:
       - dev
@@ -48,7 +45,7 @@ jobs:
 
       - name: Run scripts
         run: |
-          BRANCH=${{ github.ref_name }} yarn export-error-rpc
+          BRANCH=dev yarn export-error-rpc
 
       - name: Commit changes
         id: commit_changes
