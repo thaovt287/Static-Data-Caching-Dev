@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://astar.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -32,11 +40,11 @@
     }
   },
   {
-    "slug": "hyperbridge",
-    "name": "Hyperbridge",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
@@ -53,14 +61,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
     }
   }
 ]
