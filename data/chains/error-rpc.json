@@ -40,14 +40,6 @@
     }
   },
   {
-    "slug": "karura",
-    "name": "Karura",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "logion",
     "name": "logion Standalone",
     "status": "ACTIVE",
@@ -61,6 +53,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   }
 ]
