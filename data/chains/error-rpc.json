@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "botanixEvmTest",
-    "name": "Botanix Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Botanix Labs": "https://node.botanixlabs.dev"
-    }
-  },
-  {
     "slug": "crust",
     "name": "Crust",
     "status": "ACTIVE",
@@ -40,14 +32,6 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
     "slug": "logion",
     "name": "logion Standalone",
     "status": "ACTIVE",
@@ -61,6 +45,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   }
 ]
