@@ -1,8 +1,8 @@
 import Bluebird from 'bluebird'
 import {Web3} from 'web3'
 import {ApiPromise, WsProvider} from '@polkadot/api'
-import fs from 'fs'
 import createApiRequest from "../utils/baseApi.js";
+import writeFileSync from "../utils/writeFile.js";
 
 
 const URL_GET_CHAIN = 'https://static-data.subwallet.app/chains'
@@ -139,18 +139,6 @@ const getErrorRpc = async (chainInfo) => {
   return Object.fromEntries(Object.entries(errorRpcs).sort())
 }
 
-const writeFileSync = (data) => {
-  const fileName = `./data/chains/error-rpc.json`
-  fs.mkdirSync('./data/chains', {recursive: true})
-  const jsonData = JSON.stringify(data, null, 2)
-
-  fs.writeFileSync(fileName, jsonData, function (err) {
-      if (err) throw err
-      console.log('complete')
-    }
-  )
-
-}
 const checkHealthRpc = async () => {
   const chains = await getChains()
   const errorChain = []
@@ -168,7 +156,7 @@ const checkHealthRpc = async () => {
 
   }, {concurrency: 20})
 
-  writeFileSync(errorChain.sort((a, b) => (a.slug > b.slug) ? 1 : ((b.slug > a.slug) ? -1 : 0)))
+  writeFileSync(errorChain.sort((a, b) => (a.slug > b.slug) ? 1 : ((b.slug > a.slug) ? -1 : 0)), './data/chains/error-rpc.json')
 }
 
 setImmediate(async () => {
