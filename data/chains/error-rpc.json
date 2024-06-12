@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "aventus_testnet",
-    "name": "Aventus Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Aventus": "wss://public-rpc.public-testnet.aventus.io"
-    }
-  },
-  {
     "slug": "crust",
     "name": "Crust",
     "status": "ACTIVE",
@@ -37,6 +29,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Darwinia Community": "wss://darwinia-rpc.darwiniacommunitydao.xyz"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
