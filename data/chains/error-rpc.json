@@ -16,6 +16,22 @@
     }
   },
   {
+    "slug": "bittensor",
+    "name": "Bittensor",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
+    }
+  },
+  {
+    "slug": "botanixEvmTest",
+    "name": "Botanix Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Botanix Labs": "https://node.botanixlabs.dev"
+    }
+  },
+  {
     "slug": "crust",
     "name": "Crust",
     "status": "ACTIVE",
@@ -29,6 +45,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Darwinia Community": "wss://darwinia-rpc.darwiniacommunitydao.xyz"
+    }
+  },
+  {
+    "slug": "hyperbridge",
+    "name": "Hyperbridge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+    }
+  },
+  {
+    "slug": "integritee",
+    "name": "Integritee Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
     }
   },
   {
