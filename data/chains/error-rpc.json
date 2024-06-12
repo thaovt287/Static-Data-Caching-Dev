@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "hyperbridge",
+    "name": "Hyperbridge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+    }
+  },
+  {
     "slug": "integritee",
     "name": "Integritee Network",
     "status": "ACTIVE",
@@ -53,14 +61,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   }
 ]
