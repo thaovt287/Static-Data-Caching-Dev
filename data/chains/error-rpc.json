@@ -32,14 +32,6 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
     "slug": "hyperbridge",
     "name": "Hyperbridge",
     "status": "ACTIVE",
@@ -68,8 +60,7 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
     }
   }
 ]
