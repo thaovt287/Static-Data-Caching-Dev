@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "acurast",
+    "name": "Acurast Canary",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+    }
+  },
+  {
+    "slug": "automata",
+    "name": "Automata",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "crust",
+    "name": "Crust",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crust": "wss://crust-parachain.crustapps.net"
+    }
+  },
+  {
+    "slug": "darwinia2",
+    "name": "Darwinia 2",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Darwinia Community": "wss://darwinia-rpc.darwiniacommunitydao.xyz"
+    }
+  },
+  {
+    "slug": "integritee",
+    "name": "Integritee Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "logion",
+    "name": "logion Standalone",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Logion": "wss://rpc01.logion.network"
+    }
+  },
+  {
+    "slug": "phykenTest",
+    "name": "Phyken Network Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  }
+]
