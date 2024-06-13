@@ -16,19 +16,19 @@
     }
   },
   {
-    "slug": "crust",
-    "name": "Crust",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crust": "wss://crust-parachain.crustapps.net"
-    }
-  },
-  {
     "slug": "darwinia2",
     "name": "Darwinia 2",
     "status": "ACTIVE",
     "errorRpcs": {
       "Darwinia Community": "wss://darwinia-rpc.darwiniacommunitydao.xyz"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
