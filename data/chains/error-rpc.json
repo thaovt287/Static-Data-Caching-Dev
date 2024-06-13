@@ -16,19 +16,19 @@
     }
   },
   {
+    "slug": "crabParachain",
+    "name": "Crab2 Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crab": "wss://crab-rpc.darwinia.network/"
+    }
+  },
+  {
     "slug": "darwinia2",
     "name": "Darwinia 2",
     "status": "ACTIVE",
     "errorRpcs": {
       "Darwinia Community": "wss://darwinia-rpc.darwiniacommunitydao.xyz"
-    }
-  },
-  {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
