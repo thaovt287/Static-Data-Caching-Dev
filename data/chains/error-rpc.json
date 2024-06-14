@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "botanixEvmTest",
-    "name": "Botanix Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Botanix Labs": "https://node.botanixlabs.dev"
-    }
-  },
-  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -45,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "statemint",
+    "name": "Polkadot Asset Hub (Statemint)",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP-GeoDNS1": "wss://sys.ibp.network/statemint"
     }
   }
 ]
