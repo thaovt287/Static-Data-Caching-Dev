@@ -1,13 +1,5 @@
 [
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Blast": "wss://astar.public.blastapi.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -24,6 +16,14 @@
     }
   },
   {
+    "slug": "crust",
+    "name": "Crust",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crust": "wss://crust-parachain.crustapps.net"
+    }
+  },
+  {
     "slug": "darwinia2",
     "name": "Darwinia 2",
     "status": "ACTIVE",
@@ -32,11 +32,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "kilt_peregrine",
+    "name": "KILT Peregrine",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "kilt": "wss://peregrine.kilt.io/parachain-public-ws/"
     }
   },
   {
