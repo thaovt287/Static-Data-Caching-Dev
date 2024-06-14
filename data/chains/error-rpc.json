@@ -1,18 +1,18 @@
 [
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "botanixEvmTest",
+    "name": "Botanix Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Botanix Labs": "https://node.botanixlabs.dev"
     }
   },
   {
@@ -29,14 +29,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Darwinia Community": "wss://darwinia-rpc.darwiniacommunitydao.xyz"
-    }
-  },
-  {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Kippu": "wss://kreivo.kippu.rocks/"
     }
   },
   {
