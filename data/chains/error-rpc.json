@@ -1,30 +1,5 @@
 [
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "aleph",
-    "name": "Aleph Zero",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr",
-      "OnFinality": "wss://astar.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -49,11 +24,11 @@
     }
   },
   {
-    "slug": "krest_network",
-    "name": "Krest Network",
+    "slug": "kusama",
+    "name": "Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -70,30 +45,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadex_dot",
-    "name": "Polkadex Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "zeitgeist",
-    "name": "Zeitgeist",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
     }
   }
 ]
