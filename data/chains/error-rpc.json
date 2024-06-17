@@ -1,13 +1,5 @@
 [
   {
-    "slug": "alephTest",
-    "name": "Aleph Zero Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Aleph Zero Foundation": "wss://ws.test.azero.dev"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -48,11 +40,11 @@
     }
   },
   {
-    "slug": "sepolia_ethereum",
-    "name": "Ethereum Sepolia",
+    "slug": "polkadot",
+    "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Asia RPC": "https://rpc.sepolia.org"
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   }
 ]
