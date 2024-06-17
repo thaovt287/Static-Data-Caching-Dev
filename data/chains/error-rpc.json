@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "goldberg_testnet",
     "name": "Avail Goldberg Testnet",
     "status": "ACTIVE",
@@ -40,27 +48,11 @@
     }
   },
   {
-    "slug": "manta_network",
-    "name": "Manta Atlantic",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Manta Network": "wss://ws.manta.systems"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   }
 ]
