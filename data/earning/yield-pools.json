@@ -1,6 +1,6 @@
 {
-  "lastUpdated": 1718614758287,
-  "lastUpdatedTimestamp": "2024-06-17T08:59:18.287Z",
+  "lastUpdated": 1718616310866,
+  "lastUpdatedTimestamp": "2024-06-17T09:25:10.866Z",
   "data": {
     "DOT___native_staking___polkadot": {
       "group": "DOT-Polkadot",
@@ -29,7 +29,7 @@
         "assetEarning": [
           {
             "slug": "polkadot-NATIVE-DOT",
-            "apy": 17.661225597054095
+            "apy": 17.661213857587335
           }
         ],
         "maxCandidatePerFarmer": 16,
@@ -43,11 +43,11 @@
         "era": 1476,
         "eraTime": 24,
         "tvl": "8384982522016173374",
-        "totalApy": 17.661225597054095,
+        "totalApy": 17.661213857587335,
         "unstakingPeriod": 672,
-        "inflation": 8.251349999999999
+        "inflation": 8.251270000000002
       },
-      "lastUpdated": 1718614698424
+      "lastUpdated": 1718616251036
     },
     "DOT___nomination_pool___polkadot": {
       "group": "DOT-Polkadot",
@@ -76,7 +76,7 @@
         "assetEarning": [
           {
             "slug": "polkadot-NATIVE-DOT",
-            "apy": 17.661225597054095
+            "apy": 17.661213857587335
           }
         ],
         "maxCandidatePerFarmer": 1,
@@ -90,11 +90,11 @@
         "era": 1476,
         "eraTime": 24,
         "tvl": "8384982522016173374",
-        "totalApy": 17.661225597054095,
+        "totalApy": 17.661213857587335,
         "unstakingPeriod": 672,
-        "inflation": 8.251349999999999
+        "inflation": 8.251270000000002
       },
-      "lastUpdated": 1718614698404
+      "lastUpdated": 1718616251015
     },
     "KSM___native_staking___kusama": {
       "group": "KSM-Kusama",
@@ -123,7 +123,7 @@
         "assetEarning": [
           {
             "slug": "kusama-NATIVE-KSM",
-            "apy": 19.079350615929194
+            "apy": 19.079341919385055
           }
         ],
         "maxCandidatePerFarmer": 24,
@@ -133,15 +133,15 @@
           "defaultUnstake": "0",
           "fastUnstake": "0"
         },
-        "farmerCount": 15600,
+        "farmerCount": 15601,
         "era": 6753,
         "eraTime": 6,
         "tvl": "7963526386925953313",
-        "totalApy": 19.079350615929194,
+        "totalApy": 19.079341919385055,
         "unstakingPeriod": 168,
-        "inflation": 5.058096335196309
+        "inflation": 5.058273655067912
       },
-      "lastUpdated": 1718614698433
+      "lastUpdated": 1718616251112
     },
     "KSM___nomination_pool___kusama": {
       "group": "KSM-Kusama",
@@ -170,7 +170,7 @@
         "assetEarning": [
           {
             "slug": "kusama-NATIVE-KSM",
-            "apy": 19.079350615929194
+            "apy": 19.079341919385055
           }
         ],
         "maxCandidatePerFarmer": 1,
@@ -184,11 +184,11 @@
         "era": 6753,
         "eraTime": 6,
         "tvl": "7963526386925953313",
-        "totalApy": 19.079350615929194,
+        "totalApy": 19.079341919385055,
         "unstakingPeriod": 168,
-        "inflation": 5.058096335196309
+        "inflation": 5.058273655067912
       },
-      "lastUpdated": 1718614698414
+      "lastUpdated": 1718616251069
     },
     "GLMR___native_staking___moonbeam": {
       "group": "GLMR-Moonbeam",
@@ -229,12 +229,12 @@
         "farmerCount": 0,
         "era": 3554,
         "eraTime": 6,
-        "tvl": "387516550782255120583358017",
+        "tvl": "387516900942255120583358017",
         "unstakingPeriod": 168,
         "inflation": 5
       },
       "maxPoolMembers": 300,
-      "lastUpdated": 1718614698694
+      "lastUpdated": 1718616251264
     },
     "xcDOT___liquid_staking___stellaswap": {
       "group": "DOT-Polkadot",
@@ -288,7 +288,7 @@
         "totalApr": 18.4,
         "tvl": "11049567566190503"
       },
-      "lastUpdated": 1718613011126
+      "lastUpdated": 1718616255504
     },
     "AZERO___native_staking___aleph": {
       "group": "aleph-NATIVE-AZERO",
@@ -336,7 +336,7 @@
         "inflation": 8.23813945794333
       },
       "maxPoolMembers": 1024,
-      "lastUpdated": 1718614698846
+      "lastUpdated": 1718616251198
     },
     "AZERO___nomination_pool___aleph": {
       "group": "aleph-NATIVE-AZERO",
@@ -383,7 +383,7 @@
         "unstakingPeriod": 336,
         "inflation": 8.23813945794333
       },
-      "lastUpdated": 1718614698819
+      "lastUpdated": 1718616251181
     },
     "ASTR___native_staking___astar": {
       "group": "ASTR-Astar",
@@ -529,7 +529,7 @@
         "inflation": 0.25856563345316236
       },
       "maxPoolMembers": 1024,
-      "lastUpdated": 1718614698462
+      "lastUpdated": 1718616251234
     },
     "TZERO___nomination_pool___alephTest": {
       "group": "alephTest-NATIVE-TZERO",
@@ -576,7 +576,7 @@
         "unstakingPeriod": 336,
         "inflation": 0.25856563345316236
       },
-      "lastUpdated": 1718614698454
+      "lastUpdated": 1718616251226
     },
     "SDN___native_staking___shiden": {
       "group": "SDN-Shiden",
@@ -672,7 +672,7 @@
         "assetEarning": [
           {
             "slug": "westend-NATIVE-WND",
-            "apy": 22.881505118610857
+            "apy": 22.88145917145195
           }
         ],
         "maxCandidatePerFarmer": 16,
@@ -686,11 +686,11 @@
         "era": 7969,
         "eraTime": 6,
         "tvl": "1751486804692398996",
-        "totalApy": 22.881505118610857,
+        "totalApy": 22.88145917145195,
         "unstakingPeriod": 12,
-        "inflation": 7.665550000000001
+        "inflation": 7.665280000000001
       },
-      "lastUpdated": 1718614699099
+      "lastUpdated": 1718616251368
     },
     "WND___nomination_pool___westend": {
       "group": "westend-NATIVE-WND",
@@ -719,7 +719,7 @@
         "assetEarning": [
           {
             "slug": "westend-NATIVE-WND",
-            "apy": 22.881505118610857
+            "apy": 22.88145917145195
           }
         ],
         "maxCandidatePerFarmer": 1,
@@ -733,11 +733,11 @@
         "era": 7969,
         "eraTime": 6,
         "tvl": "1751486804692398996",
-        "totalApy": 22.881505118610857,
+        "totalApy": 22.88145917145195,
         "unstakingPeriod": 12,
-        "inflation": 7.665550000000001
+        "inflation": 7.665280000000001
       },
-      "lastUpdated": 1718614698980
+      "lastUpdated": 1718616251297
     },
     "DEV___native_staking___moonbase": {
       "group": "DEV-MoonbaseDev",
@@ -783,7 +783,7 @@
         "inflation": 5
       },
       "maxPoolMembers": 300,
-      "lastUpdated": 1718614698485
+      "lastUpdated": 1718616251402
     },
     "MOVR___native_staking___moonriver": {
       "group": "MOVR-Moonriver",
@@ -822,14 +822,14 @@
           "fastUnstake": "0"
         },
         "farmerCount": 0,
-        "era": 13409,
+        "era": 13410,
         "eraTime": 2,
-        "tvl": "2255062133547277174749104",
+        "tvl": "2255063153547277174749104",
         "unstakingPeriod": 48,
         "inflation": 5
       },
       "maxPoolMembers": 300,
-      "lastUpdated": 1718614698861
+      "lastUpdated": 1718616276670
     },
     "TUR___native_staking___turingStaging": {
       "group": "turingStaging-NATIVE-TUR",
@@ -921,7 +921,7 @@
         "inflation": 5
       },
       "maxPoolMembers": 300,
-      "lastUpdated": 1718614700424
+      "lastUpdated": 1718616253231
     },
     "BNC___native_staking___bifrost": {
       "group": "BNC-BifrostKusama",
@@ -967,7 +967,7 @@
         "inflation": 5
       },
       "maxPoolMembers": 300,
-      "lastUpdated": 1718614705352
+      "lastUpdated": 1718616263626
     },
     "DOT___liquid_staking___bifrost_dot": {
       "group": "DOT-Polkadot",
@@ -1023,7 +1023,7 @@
         "totalApy": 17.42,
         "tvl": "91516002393714350"
       },
-      "lastUpdated": 1718613798435
+      "lastUpdated": 1718616253579
     },
     "BNC___native_staking___bifrost_testnet": {
       "group": "bifrost_testnet-NATIVE-BNC",
@@ -1069,7 +1069,7 @@
         "inflation": 5
       },
       "maxPoolMembers": 300,
-      "lastUpdated": 1718614704578
+      "lastUpdated": 1718616254900
     },
     "KMA___native_staking___calamari": {
       "group": "KMA-Calamari",
@@ -1115,7 +1115,7 @@
         "inflation": 3
       },
       "maxPoolMembers": 100,
-      "lastUpdated": 1718614702946
+      "lastUpdated": 1718616253398
     },
     "AMPE___native_staking___amplitude": {
       "group": "amplitude-NATIVE-AMPE",
@@ -1160,7 +1160,7 @@
         "unstakingPeriod": 168
       },
       "maxPoolMembers": 40,
-      "lastUpdated": 1718614702442
+      "lastUpdated": 1718616253171
     },
     "AMPE___native_staking___amplitude_test": {
       "group": "amplitude_test-NATIVE-AMPE",
@@ -1205,7 +1205,7 @@
         "unstakingPeriod": 168
       },
       "maxPoolMembers": 40,
-      "lastUpdated": 1718614703690
+      "lastUpdated": 1718616256406
     },
     "DOT___liquid_staking___parallel": {
       "group": "DOT-Polkadot",
@@ -1347,7 +1347,7 @@
           {
             "slug": "interlay-LOCAL-DOT",
             "apr": 1.29,
-            "exchangeRate": 0.02107231854405868
+            "exchangeRate": 0.02107237877482322
           }
         ],
         "maxCandidatePerFarmer": 1,
@@ -1360,7 +1360,7 @@
         "totalApr": 1.29,
         "tvl": "291890000000000"
       },
-      "lastUpdated": 1718614702250
+      "lastUpdated": 1718616257463
     },
     "PDEX___native_staking___polkadex": {
       "group": "polkadex-NATIVE-PDEX",
@@ -1389,7 +1389,7 @@
         "assetEarning": [
           {
             "slug": "polkadex-NATIVE-PDEX",
-            "apy": 23.009518738086484
+            "apy": 23.00951880065645
           }
         ],
         "maxCandidatePerFarmer": 16,
@@ -1403,12 +1403,12 @@
         "era": 994,
         "eraTime": 24,
         "tvl": "6793778090690532530",
-        "totalApy": 23.009518738086484,
+        "totalApy": 23.00951880065645,
         "unstakingPeriod": 672,
         "inflation": 7.760185000000002
       },
       "maxPoolMembers": 256,
-      "lastUpdated": 1718614700553
+      "lastUpdated": 1718616253461
     },
     "KILT___native_staking___kilt": {
       "group": "kilt-NATIVE-KILT",
@@ -1453,7 +1453,7 @@
         "unstakingPeriod": 168
       },
       "maxPoolMembers": 35,
-      "lastUpdated": 1718614703388
+      "lastUpdated": 1718616256564
     },
     "CAPS___native_staking___ternoa": {
       "group": "ternoa-NATIVE-CAPS",
@@ -1482,7 +1482,7 @@
         "assetEarning": [
           {
             "slug": "ternoa-NATIVE-CAPS",
-            "apy": 10.454997440286245
+            "apy": 10.454997440860438
           }
         ],
         "maxCandidatePerFarmer": 24,
@@ -1496,12 +1496,12 @@
         "era": 795,
         "eraTime": 24,
         "tvl": "443783815157586154446059425",
-        "totalApy": 10.454997440286245,
+        "totalApy": 10.454997440860438,
         "unstakingPeriod": 672,
         "inflation": 3.6378501675272594
       },
       "maxPoolMembers": 256,
-      "lastUpdated": 1718614700502
+      "lastUpdated": 1718616256415
     },
     "PEN___native_staking___pendulum": {
       "group": "pendulum-NATIVE-PEN",
@@ -1546,7 +1546,7 @@
         "unstakingPeriod": 168
       },
       "maxPoolMembers": 40,
-      "lastUpdated": 1718614701091
+      "lastUpdated": 1718616256649
     },
     "KMA___native_staking___calamari_test": {
       "group": "calamari_test-NATIVE-KMA",
@@ -1637,7 +1637,7 @@
         "unstakingPeriod": 168
       },
       "maxPoolMembers": 35,
-      "lastUpdated": 1718614701363
+      "lastUpdated": 1718616254929
     },
     "CTC___native_staking___creditcoin": {
       "group": "creditcoin-NATIVE-CTC",
@@ -1685,7 +1685,7 @@
         "inflation": 9.90793
       },
       "maxPoolMembers": 512,
-      "lastUpdated": 1718614704380
+      "lastUpdated": 1718616254447
     },
     "VARA___native_staking___vara_network": {
       "group": "vara_network-NATIVE-VARA",
@@ -1733,7 +1733,7 @@
         "inflation": 6.268937499999999
       },
       "maxPoolMembers": 256,
-      "lastUpdated": 1718614701793
+      "lastUpdated": 1718616254029
     },
     "VARA___nomination_pool___vara_network": {
       "group": "vara_network-NATIVE-VARA",
@@ -1781,7 +1781,7 @@
         "inflation": 6.268937499999999
       },
       "maxPoolMembers": 50000,
-      "lastUpdated": 1718614701766
+      "lastUpdated": 1718616254007
     },
     "MANTA___native_staking___manta_network": {
       "group": "MANTA-MantaAtlantic",
@@ -1827,7 +1827,7 @@
         "inflation": 2
       },
       "maxPoolMembers": 100,
-      "lastUpdated": 1718614702850
+      "lastUpdated": 1718616244573
     },
     "AVL___native_staking___goldberg_testnet": {
       "group": "goldberg_testnet-NATIVE-AVL",
@@ -1875,7 +1875,7 @@
         "inflation": 2.51527
       },
       "maxPoolMembers": 256,
-      "lastUpdated": 1718614700360
+      "lastUpdated": 1718616255450
     },
     "AVL___nomination_pool___goldberg_testnet": {
       "group": "goldberg_testnet-NATIVE-AVL",
@@ -1923,7 +1923,7 @@
         "inflation": 2.51527
       },
       "maxPoolMembers": 100,
-      "lastUpdated": 1718614700367
+      "lastUpdated": 1718616255458
     },
     "KREST___native_staking___krest_network": {
       "group": "krest_network-NATIVE-KREST",
@@ -1968,7 +1968,7 @@
         "unstakingPeriod": 168
       },
       "maxPoolMembers": 25,
-      "lastUpdated": 1718614700308
+      "lastUpdated": 1718616253699
     },
     "MANTA___liquid_staking___bifrost_dot": {
       "group": "MANTA-MantaAtlantic",
@@ -2022,9 +2022,9 @@
           "fastUnstake": "0"
         },
         "totalApy": 25.8,
-        "tvl": "3.862041905476527e+24"
+        "tvl": "3.8619903781154604e+24"
       },
-      "lastUpdated": 1718613799436
+      "lastUpdated": 1718616253484
     },
     "PLMC___native_staking___polimec": {
       "group": "polimec-NATIVE-PLMC",
@@ -2117,7 +2117,7 @@
         "unstakingPeriod": 672,
         "inflation": 9.988825000000002
       },
-      "lastUpdated": 1718614700895
+      "lastUpdated": 1718616254940
     },
     "AVAIL___nomination_pool___availTuringTest": {
       "group": "availTuringTest-NATIVE-AVAIL",
@@ -2165,7 +2165,7 @@
         "inflation": 9.988825000000002
       },
       "maxPoolMembers": 100,
-      "lastUpdated": 1718614700699
+      "lastUpdated": 1718616254780
     },
     "AVAIL___native_staking___avail_mainnet": {
       "group": "avail_mainnet-NATIVE-AVAIL",
