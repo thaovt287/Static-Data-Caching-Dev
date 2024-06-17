@@ -24,19 +24,19 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "logion",
     "name": "logion Standalone",
     "status": "ACTIVE",
     "errorRpcs": {
       "Logion": "wss://rpc01.logion.network"
-    }
-  },
-  {
-    "slug": "manta_network",
-    "name": "Manta Atlantic",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Manta Network": "wss://ws.manta.systems"
     }
   },
   {
