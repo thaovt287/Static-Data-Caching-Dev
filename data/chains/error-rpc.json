@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
     "slug": "logion",
     "name": "logion Standalone",
     "status": "ACTIVE",
@@ -45,14 +37,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "sepolia_ethereum",
-    "name": "Ethereum Sepolia",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Asia RPC": "https://rpc.sepolia.org"
     }
   }
 ]
