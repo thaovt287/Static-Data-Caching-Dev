@@ -24,19 +24,19 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
     "slug": "goldberg_testnet",
     "name": "Avail Goldberg Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Goldberg testnet": "wss://goldberg-testnet-rpc.avail.tools/ws"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
