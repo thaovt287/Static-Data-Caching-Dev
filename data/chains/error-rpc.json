@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "botanixEvmTest",
+    "name": "Botanix Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Botanix Labs": "https://node.botanixlabs.dev"
+    }
+  },
+  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -24,14 +32,6 @@
     }
   },
   {
-    "slug": "dockPosMainnet",
-    "name": "Dock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dock Association": "wss://mainnet-node.dock.io"
-    }
-  },
-  {
     "slug": "ethereum",
     "name": "Ethereum",
     "status": "ACTIVE",
@@ -45,14 +45,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Logion": "wss://rpc01.logion.network"
-    }
-  },
-  {
-    "slug": "pangolin",
-    "name": "Pangolin",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
     }
   },
   {
