@@ -24,30 +24,6 @@
     }
   },
   {
-    "slug": "dbcchain",
-    "name": "DBC Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DBC Chain": "wss://info1.dbcwallet.io"
-    }
-  },
-  {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
-    "slug": "liberlandTest",
-    "name": "Liberland Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Liberland": "wss://testchain.liberland.org"
-    }
-  },
-  {
     "slug": "logion",
     "name": "logion Standalone",
     "status": "ACTIVE",
@@ -56,35 +32,11 @@
     }
   },
   {
-    "slug": "manta_network",
-    "name": "Manta Atlantic",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Manta Network": "wss://ws.manta.systems"
-    }
-  },
-  {
-    "slug": "origintrail",
-    "name": "NeuroWeb Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "TraceLabs": "wss://parachain-rpc.origin-trail.network"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "watr_network",
-    "name": "Watr Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "watr": "wss://rpc.dev.watr.org"
     }
   }
 ]
