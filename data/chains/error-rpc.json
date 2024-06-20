@@ -32,35 +32,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
-    }
-  },
-  {
     "slug": "logion",
     "name": "logion Standalone",
     "status": "ACTIVE",
     "errorRpcs": {
       "Logion": "wss://rpc01.logion.network"
-    }
-  },
-  {
-    "slug": "peaq",
-    "name": "peaq",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Onfinality": "https://peaq.api.onfinality.io/public"
     }
   },
   {
