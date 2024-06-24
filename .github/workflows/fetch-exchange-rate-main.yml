@@ -1,18 +1,17 @@
-name: Fetch Exchange Rate Dev
+name: Fetch Exchange Rate Main
 on:
   schedule:
     - cron: "30 0 * * *"
   workflow_dispatch:
     branches:
-      - dev
-      - exchange-rate
+      - main
     inputs:
       note:
         description: 'Fetch Exchange Rate'
         required: false
         default: ''
 
-concurrency: 'dev'
+concurrency: 'main'
 
 jobs:
   health-check:
@@ -22,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: dev
+          ref: main
           fetch-depth: 0
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
 
@@ -45,7 +44,7 @@ jobs:
         with:
           author_name: Github-Bot
           author_email: scheduler@github.io
-          message: '[CI Skip] Fetch Exchange Rate (dev)'
+          message: '[CI Skip] Fetch Exchange Rate ()'
 
       - name: Log commit changes
         run: |
@@ -60,6 +59,6 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: 'sw-static-cache'
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
-          branch: dev
+          branch:
           directory: './data'
           wranglerVersion: '3'

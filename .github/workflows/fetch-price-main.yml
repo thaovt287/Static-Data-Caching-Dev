@@ -1,28 +1,22 @@
-name: Fetch Exchange Rate Dev
+name: Fetch Price Main
 on:
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
     branches:
-      - dev
-      - exchange-rate
-    inputs:
-      note:
-        description: 'Fetch Exchange Rate'
-        required: false
-        default: ''
+      - main
 
-concurrency: 'dev'
+concurrency: 'main'
 
 jobs:
   health-check:
     if: "! startsWith(github.event.head_commit.message, '[CI Skip]')"
     runs-on: ubuntu-22.04
-    name: Fetch Exchange Rate
+    name: Fetch Price Rate
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: dev
+          ref: main
           fetch-depth: 0
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
 
@@ -33,11 +27,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          yarn install
+          yarn install 
 
       - name: Run scripts
         run: |
-          EXCHANGE_RATE_API_KEY=${{ secrets.EXCHANGE_RATE_API_KEY }} yarn fetch-exchange-rate
+          NODE_ENV=production yarn fetch-price
 
       - name: Commit changes
         id: commit_changes
@@ -45,7 +39,7 @@ jobs:
         with:
           author_name: Github-Bot
           author_email: scheduler@github.io
-          message: '[CI Skip] Fetch Exchange Rate (dev)'
+          message: '[CI Skip] Fetch Price (main)'
 
       - name: Log commit changes
         run: |
@@ -60,6 +54,6 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: 'sw-static-cache'
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
-          branch: dev
+          branch: main
           directory: './data'
           wranglerVersion: '3'
