@@ -1,10 +1,10 @@
 [
   {
-    "slug": "acurast",
-    "name": "Acurast Canary",
+    "slug": "3dpass",
+    "name": "3DPass",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+      "3dpass": "wss://rpc.3dpass.org"
     }
   },
   {
@@ -16,11 +16,27 @@
     }
   },
   {
-    "slug": "crust",
-    "name": "Crust",
+    "slug": "bajun",
+    "name": "Bajun Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Crust": "wss://crust-parachain.crustapps.net"
+      "AjunaNetwork": "wss://rpc-parachain.bajun.network"
+    }
+  },
+  {
+    "slug": "calamari_test",
+    "name": "Calamari Staging",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "CESS Testnet": "wss://testnet-rpc.cess.cloud/ws/"
     }
   },
   {
@@ -32,11 +48,27 @@
     }
   },
   {
-    "slug": "integritee",
-    "name": "Integritee Network",
+    "slug": "heiko",
+    "name": "Heiko",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
+    "slug": "interlay",
+    "name": "Interlay",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://interlay-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "joystream",
+    "name": "Joystream",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Jsgenesis": "wss://rpc.joystream.org"
     }
   },
   {
@@ -53,6 +85,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "rococo_assethub",
+    "name": "Rococo Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://rococo-asset-hub-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "sora_substrate",
+    "name": "SORA",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "SORA Parliament Ministry of Finance #3": "wss://mof3.sora.org"
     }
   }
 ]
