@@ -163,3 +163,15 @@ export const checkHealthRpc = async () => {
   }
 
 }
+
+setImmediate(async () => {
+
+  try {
+
+    await checkHealthRpc()
+    process.exit()
+
+  } catch (err) {
+    console.error(err)
+  }
+})
