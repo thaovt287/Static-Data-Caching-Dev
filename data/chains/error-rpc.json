@@ -8,6 +8,30 @@
     }
   },
   {
+    "slug": "aleph",
+    "name": "Aleph Zero",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://astar.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "astarEvm",
+    "name": "Astar - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "https://astar.api.onfinality.io/public"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -44,7 +68,16 @@
     "name": "Crust Mainnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Crust Network": "wss://rpc.crust.network"
+      "Crust Network": "wss://rpc.crust.network",
+      "OnFinality": "wss://crust.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
@@ -61,6 +94,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Crust": "wss://rpc-shadow.crust.network/"
+    }
+  },
+  {
+    "slug": "shidenEvm",
+    "name": "Shiden - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "https://shiden.api.onfinality.io/public"
+    }
+  },
+  {
+    "slug": "statemint",
+    "name": "Polkadot Asset Hub (Statemint)",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://statemint.api.onfinality.io/public-ws"
     }
   }
 ]
