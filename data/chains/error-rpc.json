@@ -32,19 +32,19 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
+    "slug": "crust_mainnet",
+    "name": "Crust Mainnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
+      "Crust Network": "wss://rpc.crust.network"
     }
   },
   {
-    "slug": "logion",
-    "name": "logion Standalone",
+    "slug": "heiko",
+    "name": "Heiko",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Logion": "wss://rpc01.logion.network"
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
