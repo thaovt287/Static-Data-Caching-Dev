@@ -32,11 +32,19 @@
     }
   },
   {
-    "slug": "heiko",
-    "name": "Heiko",
+    "slug": "crust",
+    "name": "Crust",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
+      "Crust": "wss://crust-parachain.crustapps.net"
+    }
+  },
+  {
+    "slug": "crust_mainnet",
+    "name": "Crust Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crust Network": "wss://rpc.crust.network"
     }
   },
   {
@@ -45,6 +53,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "shadow",
+    "name": "Crust Shadow",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crust": "wss://rpc-shadow.crust.network/"
     }
   }
 ]
