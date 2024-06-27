@@ -48,11 +48,11 @@
     }
   },
   {
-    "slug": "heiko",
-    "name": "Heiko",
+    "slug": "dockPosMainnet",
+    "name": "Dock",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
+      "Dock Association": "wss://mainnet-node.dock.io"
     }
   },
   {
@@ -64,19 +64,19 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Stakeworld": "wss://ksm-rpc.stakeworld.io"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   },
   {
