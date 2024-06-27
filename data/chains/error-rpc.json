@@ -48,11 +48,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "heiko",
+    "name": "Heiko",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
@@ -61,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kippu": "wss://kreivo.kippu.rocks/"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Stakeworld": "wss://ksm-rpc.stakeworld.io"
     }
   },
   {
