@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
     }
   },
   {
@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "nftmart",
     "name": "NFTMart",
     "status": "ACTIVE",
@@ -45,6 +53,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "pioneer",
+    "name": "Pioneer Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pioneer": "wss://pioneer-rpc-3.bit.country/wss"
     }
   }
 ]
