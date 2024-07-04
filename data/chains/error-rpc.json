@@ -8,22 +8,6 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
-    "slug": "acala_testnet",
-    "name": "Acala Mandala TC7",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Mandala": "wss://mandala-tc9-rpc.aca-staging.network"
-    }
-  },
-  {
     "slug": "arbitrum_one",
     "name": "Arbitrum One",
     "status": "ACTIVE",
@@ -48,19 +32,19 @@
     }
   },
   {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   }
 ]
