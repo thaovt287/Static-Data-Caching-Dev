@@ -40,19 +40,19 @@
     }
   },
   {
+    "slug": "pangolin",
+    "name": "Pangolin",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   }
 ]
